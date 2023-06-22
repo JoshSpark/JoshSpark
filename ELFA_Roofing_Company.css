@@ -1,0 +1,634 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 428px) {
+    div.head {
+        margin: 0;
+        padding: 0;
+        background-color: #e09900;
+        width: 100%;
+        height: 200px;
+    }
+}
+
+div.head {
+    margin: 0;
+    padding: 0;
+    background-color: #e09900;
+    width: 100%;
+    height: 100px;
+}
+
+@media only screen and (max-width: 428px) {
+    div.head div.head1 {
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+}
+
+div.head div.head1 {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 30%;
+}
+
+div.head div.head1>img {
+    padding: 20px 20px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 428px) {
+    div.head div.head2 {
+        padding: 0;
+        margin: 0;
+        clear: both;
+    }
+}
+
+div.head div.head2 {
+    padding: 0;
+    margin: 0;
+    width: 70%;
+    float: left;
+}
+
+div.head div.head2>ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    float: left;
+    padding-top: 40px;
+}
+
+div.head div.head2>ul>li {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-weight: 600;
+    color: black;
+}
+
+div.head div.head2>ul>li>a {
+    padding: 8px 8px;
+    margin: 0;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+}
+
+div.head div.head2>ul>li>a:hover {
+    color: #f9f9f9;
+}
+
+@media only screen and (max-width: 428px) {
+    div.head div.head1>img {
+        padding: 40px 40px;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.head div.head2>ul {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.head div.head2>ul>li {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.head div.head2>ul>li>a {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        color: black;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.head2>ul>div {
+        width: 30px;
+        height: 4px;
+        background-color: black;
+        margin: 6px 0;
+        cursor: pointer;
+        position: relative;
+        margin-left: 300px;
+        clear: both;
+    }
+}
+
+@media only screen and (max-width:428px) {
+    div.head div.head2>ul>div>li>a:hover {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.cont {
+        padding: 0;
+        margin: 0;
+        height: 300px;
+        background-color: rgba(10, 10, 10, 0.65) !important;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.cont1 div.line {
+        width: 7%;
+        height: 5px;
+        background-color: #ffb400;
+        margin: 10px 150px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.cont {
+        background-image: url(./images/roofing_sheet.jpg);
+        background-repeat: no-repeat;
+        height: 400px;
+        background-size: cover;
+    }
+}
+
+div.cont {
+    background-image: url(./images/roofing_sheet.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 428px) {
+    div.cont div.cont1 {
+        padding-top: 40px;
+        margin: 0;
+        height: 400px;
+        background-color: rgba(10, 10, 10, 0.65) !important;
+    }
+}
+
+div.cont div.cont1 {
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    background-color: rgba(10, 10, 10, 0.65) !important;
+}
+
+@media only screen and (max-width: 428px) {
+    div.cont div.cont1>h2 {
+        font-family: 'Work Sans', sans-serif;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        padding-top: 20px;
+        color: #f9f9f9;
+        font-size: 2.5em !important;
+    }
+}
+
+div.cont div.cont1>h2 {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #f9f9f9;
+    font-size: 3.5em !important;
+    padding-top: 70px;
+}
+
+@media only screen and (max-width: 428px) {
+    div.cont div.cont1>h5 {
+        font-family: 'Work Sans', sans-serif;
+        text-align: center;
+        padding: 40px 50px;
+        padding-bottom: 50px;
+        margin: 0;
+        color: #f9f9f9;
+        font-size: 1.2em;
+    }
+}
+
+div.cont div.cont1>h5 {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #f9f9f9;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 428px) {
+    div.cont div.cont1>a {
+        text-decoration: none;
+        padding: 20px 20px;
+        background-color: #e09900;
+        color: #f9f9f9;
+        font-family: 'Work Sans', sans-serif;
+        margin-left: 100px;
+        border-radius: 6px;
+    }
+}
+
+div.cont div.cont1>a {
+    text-decoration: none;
+    padding: 20px 20px;
+    background-color: #e09900;
+    color: #f9f9f9;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    border-radius: 6px;
+    display: block;
+    margin: 40px 550px;
+}
+
+@media only screen and (max-width: 428px) {
+    div.build {
+        padding: 0;
+        margin: 0;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.build div.build1 {
+        padding: 20px 20px;
+        margin: 0;
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.build div.build1 span {
+        font-size: 2em;
+        padding: 0;
+        margin: 0;
+        display: block;
+        float: left;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.build div.build1 h3 {
+        padding: 0;
+        margin: 0;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.build div.build1 p {
+        padding: 0;
+        margin: 0;
+        font-size: 1em;
+        text-align: left;
+        padding-left: 52px;
+        font-family: 'Oxygen', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.build div.build2 {
+        padding: 20px 20px;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.build div.build2 span {
+        font-size: 2em;
+        padding: 0;
+        margin: 0;
+        display: block;
+        float: left;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.build div.build2 h3 {
+        padding: 0;
+        margin: 0;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.build div.build2 p {
+        padding: 0;
+        margin: 0;
+        font-size: 1em;
+        text-align: left;
+        padding-left: 52px;
+        font-family: 'Oxygen', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.build div.build3 {
+        padding: 20px 20px;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.build div.build3 span {
+        font-size: 2em;
+        padding: 0;
+        margin: 0;
+        display: block;
+        float: left;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.build div.build3 h3 {
+        padding: 0;
+        margin: 0;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.build div.build3 p {
+        padding: 0;
+        margin: 0;
+        font-size: 1em;
+        text-align: left;
+        padding-left: 52px;
+        font-family: 'Oxygen', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs {
+        padding: 0;
+        margin: 0;
+        height: 600px;
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs1 {
+        padding: 0;
+        margin: 0;
+        background-color: #e09900;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs1 div.bs11 {
+        padding: 20px 20px;
+        margin: 30px 40px;
+        background-color: #f9f9f9;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs11 div.blurb {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs11 div.myi {
+        padding: 0;
+        margin: 0;
+        font-size: 2.5em;
+        color: rgb(72, 72, 247)
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs11 div.myii h4 {
+        padding: 0;
+        margin: 0;
+        font-size: 2em;
+        font-family: 'Oxygen', sans-serif;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs11 div.myiii {
+        padding: 0;
+        margin: 0;
+        font-size: 1em;
+        font-family: 'Oxygen', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs1 {
+        padding: 0;
+        margin: 0;
+        background-color: #e09900;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs1 div.bs11 {
+        padding: 20px 20px;
+        margin: 30px 40px;
+        background-color: #f9f9f9;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs2 {
+        padding: 0;
+        margin: 0;
+        background-color: #e09900;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs2 div.bs12 {
+        padding: 20px 20px;
+        margin: 30px 40px;
+        background-color: #f9f9f9;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs12 div.blurb1 {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs12 div.nyi {
+        padding: 0;
+        margin: 0;
+        font-size: 2.5em;
+        color: rgb(72, 72, 247)
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs12 div.nyii h4 {
+        padding: 0;
+        margin: 0;
+        font-size: 2em;
+        font-family: 'Oxygen', sans-serif;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs12 div.nyiii {
+        padding: 0;
+        margin: 0;
+        font-size: 1em;
+        font-family: 'Oxygen', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs3 {
+        padding: 0;
+        margin: 0;
+        background-color: #e09900;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs3 div.bs13 {
+        padding: 20px 20px;
+        margin: 30px 40px;
+        background-color: #f9f9f9;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs13 div.blurb2 {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs13 div.oyi {
+        padding: 0;
+        margin: 0;
+        font-size: 2.5em;
+        color: rgb(72, 72, 247)
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs13 div.oyii h4 {
+        padding: 0;
+        margin: 0;
+        font-size: 2em;
+        font-family: 'Oxygen', sans-serif;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs13 div.oyiii {
+        padding: 0;
+        margin: 0;
+        font-size: 1em;
+        font-family: 'Oxygen', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs4 {
+        padding: 0;
+        margin: 0;
+        background-color: #e09900;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs4 div.bs14 {
+        padding: 20px 20px;
+        margin: 30px 40px;
+        background-color: #f9f9f9;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs14 div.blurb3 {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs14 div.pyi {
+        padding: 0;
+        margin: 0;
+        font-size: 2.5em;
+        color: rgb(72, 72, 247)
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs14 div.pyii h4 {
+        padding: 0;
+        margin: 0;
+        font-size: 2em;
+        font-family: 'Oxygen', sans-serif;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    div.bs14 div.pyiii {
+        padding: 0;
+        margin: 0;
+        font-size: 1em;
+        font-family: 'Oxygen', sans-serif;
+    }
+}
