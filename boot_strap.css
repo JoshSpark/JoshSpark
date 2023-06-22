@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div.container>h1.text {
+    font-size: 4.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: yellowgreen;
+    text-align: center;
+}
+
+div.container>p.lead {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+div.jumbotron {
+    background-color: rgb(5, 116, 116);
+    margin: 0;
+    padding: 0;
+    height: 200px;
+}
+
+div.contain {
+    background-image: url(./images/home-1_slider-3_bg.jpeg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.row {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+
+div.col-lg-4>p {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+div.col-lg-4>h3 {
+    color: red;
+    padding: 0;
+    margin: 0;
+}
+
+div.col-lg-4>h4 {
+    background: black;
+    color: red;
+    padding: 20px 20px;
+    margin: 0;
+}
+
+div.container>div.row {
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+}

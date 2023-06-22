@@ -1,0 +1,355 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar-pantheon {
+    padding: 0;
+    margin: 0;
+    padding-right: 40px;
+}
+
+div.head {
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    position: sticky;
+}
+
+div.head1 {
+    margin: 0;
+    padding: 7px 7px 7px 7px;
+    float: left;
+    width: 10%;
+}
+
+div.head2 {
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
+    padding-top: 10px;
+    float: left;
+    width: 75%;
+}
+
+div.head2>ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+div.head2>ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+div.head2>ul>li>a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+div.head2>ul>li>i {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 15px;
+    color: white;
+    cursor: pointer;
+}
+
+div.head2>ul>li>i>input {
+    padding: 20px 50px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    margin-top: 25px;
+    border-top: #ffdc28 3px solid;
+}
+
+div.head2>ul>li>i>input {
+    display: none;
+}
+
+div.head2>ul>li>i:hover>input {
+    display: block;
+    position: absolute;
+    transition: all .2s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: none;
+}
+
+div.head2>ul>li>a:hover {
+    color: #ffdc28;
+}
+
+div.head2>ul>li>ul {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    background-color: #ffffff;
+    width: 300px;
+    border-top: 3px solid #ffdc28;
+    display: inline-block;
+    transition: all .3s;
+    z-index: 1;
+}
+
+div.head2>ul>li>ul>li>a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: bold;
+}
+
+div.head2>ul>li>ul>li>a:hover {
+    color: black;
+    text-decoration: underline;
+    background-color: #ffffff;
+}
+
+div.head2>ul>li>ul {
+    display: none;
+}
+
+div.head2>ul>li:hover>ul {
+    display: block;
+    visibility: visible;
+    transition: all .3s;
+}
+
+div.head div.button {
+    margin: 0;
+    margin-top: 25px;
+    padding: 0;
+    width: 15%;
+    float: left;
+}
+
+div.head div.button>a {
+    margin: 0;
+    padding: 10px 30px;
+    background-color: #ffdc28;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+div.head div.button>a:hover {
+    background-color: #51acd5;
+    transition: all .2s ease;
+    transform: translateX(101%);
+}
+
+div.cont {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 700px;
+    clear: both;
+}
+
+div.cont div.cont1 {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 50%;
+}
+
+div.cont div.cont1>img {
+    margin: 0;
+    padding: 0;
+    height: 700px;
+    background-image: center;
+    margin-left: 80px;
+}
+
+div.cont div.cont2 {
+    margin: 0;
+    padding: 0;
+    padding-top: 120px;
+    float: left;
+    width: 50%;
+}
+
+div.cont div.cont2>h2 {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+div.cont div.cont2>h3 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 70px;
+    margin-top: 10px;
+    font-family: Adelle, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+    font-style: italic;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+div.cont div.cont2>a {
+    margin: 0;
+    padding: 25px 40px;
+    background-color: #ffdc28;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+div.cont div.cont2>a:hover {
+    background-color: #51acd5;
+    transition: all .2s ease;
+    transform: translateX(101%);
+}
+
+div.cont div.cont2>button {
+    margin: 0;
+    margin-left: 30px;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 3px black solid;
+}
+
+div.cont div.cont2>button:hover {
+    background-color: black;
+    transition: all .2s ease;
+    color: #ffdc28;
+}
+
+div.list {
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    clear: both;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.newtab {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    height: auto;
+}
+
+div.newtab a.tablink {
+    color: black;
+    text-decoration: none;
+    float: left;
+    outline: none;
+    border-right: solid 1px #777;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    font-weight: bolder;
+}
+
+a.tablink:hover {
+    border-bottom: solid 4px rgb(114, 5, 238);
+}
+
+.tabcontent {
+    color: black;
+    padding: 0;
+    padding-top: 150px;
+    padding-left: 20px;
+    height: 100%;
+    margin-left: 40px;
+}
+
+.tabcontent div.realcontent {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 60%;
+    margin-left: 30px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.tabcontent div.realcontent>h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    color: #313945;
+}
+
+.tabcontent div.realcontent>h4 {
+    margin: 0;
+    padding: 0;
+    color: black;
+    padding-top: 30px;
+    font-size: 1.3em;
+}
+
+.tabcontent div.realcontent>p {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    font-size: 1em;
+    line-height: 22px;
+    color: #313945;
+}
+
+.tabcontent div.mycontent {
+    float: left;
+    width: 30%;
+    padding: 0;
+    margin: 0;
+}
+
+.tabcontent div.mycontent>img {
+    padding: 0;
+    margin: 0;
+    clear: both;
+}
+
+.tabcontent div.mycontent>h6 {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 30px;
+    font-size: 1.2em;
+    color: #313945;
+}
+
+.tabcontent div.mycontent>a {
+    padding: 0;
+    margin: 0;
+    line-height: 30px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 600;
+}
