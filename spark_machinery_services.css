@@ -1,0 +1,459 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div.header {
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    background-color: #83d0fc;
+    position: relative;
+}
+
+div.header div.logo {
+    width: 30%;
+    height: auto;
+    padding: 30px 30px;
+    margin: 0;
+    float: left;
+}
+
+div.header div.menu {
+    width: 40%;
+    height: auto;
+    padding: 20px 10px;
+    margin: 10px 50px;
+    float: left;
+    padding-right: 50px;
+}
+
+div.header div.menu>ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+}
+
+div.header div.menu>ul>li {
+    display: inline-block;
+}
+
+div.header div.menu>ul>li>a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px 20px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.header div.menu>ul>li>ul {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: none;
+}
+
+div.header div.menu>ul>li>ul>li>a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.header div.menu>ul>li>ul {
+    display: none;
+}
+
+div.header div.menu>ul>li>a:hover {
+    color: black;
+}
+
+div.header div.menu>ul>li:hover>ul {
+    display: block;
+    background-color: #83d0fc;
+}
+
+div.header div.button {
+    width: 12%;
+    float: left;
+    margin: 30px 0px;
+    padding: 15px 5px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+div.header div.button a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #64c1ca;
+    text-align: center;
+    padding: 20px 15px;
+    font-weight: 600;
+}
+
+div.header div.button:hover {
+    background-color: #02383d;
+}
+
+div.header div.button a:hover {
+    color: white;
+}
+
+section {
+    background-image: url("./images/services-bg.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
+
+section div.text {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    width: 100%;
+}
+
+section div.text>h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 5em;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-shadow: 2px 2px #02383d;
+}
+
+div.mytxt {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    width: 100%;
+}
+
+div.mytxt div.mytxt1>h1 {
+    margin: 0;
+    padding-top: 80px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.mytxt div.mytxt1>div.line {
+    height: 2px;
+    background-color: #02383d;
+    margin: 10px auto;
+    width: 10%;
+}
+
+div.mytxt div.mytxt1>p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px;
+    padding: 0;
+}
+
+div.newpics {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    width: 100%;
+    padding-bottom: 500px;
+}
+
+div.newpics div.newpics1 {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+
+div.newpics div.newpics2 {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+
+div.newpics div.newpics1>img {
+    margin-left: 70px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+div.newpics div.newpics1>h4 {
+    padding: 0px;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.newpics div.newpics1>p {
+    padding: 0px 100px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+}
+
+div.newpics div.newpics2>img {
+    margin-left: 70px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+div.newpics div.newpics2>h4 {
+    padding: 0px;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.newpics div.newpics2>p {
+    padding: 0px 100px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+}
+
+div.mynewpics {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    width: 100%;
+    height: 600px;
+}
+
+div.mynewpics div.newpics3 {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+
+div.mynewpics div.newpics4 {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+
+div.mynewpics div.newpics3>img {
+    margin-left: 70px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+div.mynewpics div.newpics3>h4 {
+    padding: 0px;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.mynewpics div.newpics3>p {
+    padding: 0px 100px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+div.mynewpics div.newpics4>img {
+    margin-left: 70px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+div.mynewpics div.newpics4>h4 {
+    padding: 0px;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.mynewpics div.newpics4>p {
+    padding: 0px 100px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+}
+
+div.services {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    width: 100%;
+    height: 400px;
+}
+
+div.services div.services1 {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+
+div.services div.services2 {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+
+div.services div.services1 div.serve>h3 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 70px;
+    font-size: 2em;
+}
+
+div.services div.services1 div.serve div.line {
+    height: 3px;
+    background-color: #02383d;
+    margin: 10px auto;
+    width: 10%;
+    float: left;
+    margin-left: 70px;
+}
+
+div.services div.services1 div.serve>p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 70px;
+    padding-right: 50px;
+    line-height: 1.5em;
+    margin-bottom: 50px;
+    clear: both;
+}
+
+div.services div.services1>div.list>ul>li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+div.services div.services1>div.list>ul>li:hover {
+    color: #fff;
+    background: #ce3e3e;
+    border-left: 8px solid darkred;
+    min-width: 450px;
+    -webkit-box-shadow: 0 0 5px gray;
+    -webkit-box-shadow: 0 0 5px gray;
+    -moz-box-shadow: 0 0 5px gray;
+    box-shadow: 0 0 5px gray;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+div.services div.services1 div.list>ul>li>i {
+    color: #02383d;
+    font-size: 1.5em;
+    padding: 0;
+    margin-right: 7px;
+}
+
+div.services div.services2 div.serve1>h3 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+div.services div.services2 div.serve1 div.line {
+    height: 3px;
+    background-color: #02383d;
+    margin: 10px auto;
+    width: 10%;
+    float: left;
+}
+
+div.services div.services2 div.serve1>p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 50px;
+    line-height: 1.5em;
+    margin-bottom: 50px;
+    clear: both;
+}
+
+div.services div.services2 div.list1>ul>li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+div.services div.services2 div.list1>ul>li:hover {
+    color: #fff;
+    background: #ce3e3e;
+    border-left: 8px solid darkred;
+    min-width: 450px;
+    -webkit-box-shadow: 0 0 5px gray;
+    -webkit-box-shadow: 0 0 5px gray;
+    -moz-box-shadow: 0 0 5px gray;
+    box-shadow: 0 0 5px gray;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+div.services div.services2 div.list1>ul>li>i {
+    color: #02383d;
+    font-size: 1.5em;
+    padding: 0;
+    margin-right: 7px;
+}
+
+div.foot {
+    width: 100%;
+    clear: both;
+    height: 200px;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+div.foot>p {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-top: 40px;
+}

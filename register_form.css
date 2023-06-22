@@ -1,0 +1,133 @@
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    div.list {
+        background-color: red;
+    }
+    
+    div.list>ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    div.list>ul>li {
+        display: inline-block;
+        position: relative;
+    }
+    
+    div.list>ul>li>a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 15px 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    div.list>ul>li>a:hover {
+        background-color: rgb(128, 12, 12);
+    }
+    
+    div.list>ul>li>ul {
+        position: absolute;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(150, 67, 67);
+        width: 150px;
+    }
+    
+    div.list>ul>li>ul>li>a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 15px 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+    
+    div.list>ul>li>ul>li>a:hover {
+        background-color: rgb(128, 12, 12);
+    }
+    
+    div.list>ul>li>ul {
+        display: none;
+    }
+    
+    div.list>ul>li:hover>ul {
+        display: block;
+    }
+    
+    div.selector a[target] {
+        background-color: yellow;
+        width: 100%;
+        padding: 0;
+        margin: 20px 0px;
+        clear: both;
+    }
+    
+    div.selector1 {
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+    }
+    
+    div.selector1 [title~="outdoor"] {
+        border: 6px solid blue;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    
+    [class|=content] {
+        background-color: yellow;
+    }
+    
+    div.content {
+        counter-reset: section;
+    }
+    
+    div.content1 {
+        display: flex;
+        background-color: brown;
+        height: 500px;
+        width: 100%;
+    }
+    
+    div.content1 div.cent {
+        flex-flow: row wrap;
+        background-color: white;
+        padding: 20px;
+        margin: 10px;
+        font-size: 20px;
+        height: 200px;
+        width: 20%;
+        text-align: center;
+    }
+    
+    div.content1>div.cent1 {
+        flex-flow: row wrap;
+        background-color: white;
+        padding: 20px;
+        margin: 10px;
+        font-size: 20px;
+        height: 50px;
+        flex-grow: calc(1);
+        text-align: center;
+    }
+    
+    div.content1>div.cent2 {
+        flex-flow: row wrap;
+        background-color: white;
+        padding: 20px;
+        margin: 10px;
+        font-size: 20px;
+        flex-grow: calc(2);
+        text-align: center;
+    }

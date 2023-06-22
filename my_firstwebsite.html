@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my first website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        div.background {
+            background-image: url("images/Landscape-Color.jpg");
+            background-repeat: no-repeat;
+            opacity: 0.9;
+            height: 612px;
+        }
+        
+        div.list {
+            background-color: #183961;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            padding: 10px 0px;
+            text-align: left;
+            width: 100%;
+            opacity: 0.8;
+        }
+        
+        .list ul {
+            margin: 0;
+            padding-left: 0;
+            overflow: hidden;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li,
+        a {
+            list-style-type: none;
+            text-decoration: none;
+            display: inline-block;
+            margin: 0px auto;
+            padding: 5px 5px;
+            color: #ffa418;
+            font-size: 1.2em;
+        }
+        
+        .background h1 {
+            margin: 0;
+            font-family: 'Kdam Thmor Pro', sans-serif;
+            font-size: 70px;
+            text-align: center;
+            padding: 120px 0px 0px;
+            color: black;
+            text-shadow: 2px 2px 5px #ffa418;
+        }
+        
+        .background a {
+            background-color: #183961;
+            color: white;
+            width: 20%;
+            margin: 20px auto;
+            padding: 30px 30px;
+            font-family: 'Kdam Thmor Pro', sans-serif;
+            border-radius: 8px;
+            display: block;
+            text-align: center;
+            font-size: 30px;
+            letter-spacing: 3px;
+        }
+        
+        .company p {
+            text-align: center;
+            font-size: 40px;
+            color: black;
+            font-family: 'Kdam Thmor Pro', sans-serif;
+            font-weight: bold;
+        }
+        
+        li a .drop {
+            display: inline-block;
+            color: #ffa418;
+        }
+        
+        li a:hover {
+            color: white;
+            background-color: #031a35;
+        }
+        
+        .Javacontent {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        .Javacontent a {
+            display: block;
+            text-decoration: none;
+            color: #ffa418;
+        }
+        
+        .Javacontent a:hover {
+            background-color: #183961;
+        }
+        
+        .dropdown:hover .Javacontent {
+            display: block;
+        }
+        
+        .background a:hover {
+            background-color: #ffa418;
+            color: #183961;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="list">
+        <ul>
+            <li><a href=""><i class="bi bi-house-fill"></i></a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JAVASCRIPT</a></li>
+            <li><a href="#">SQL</a></li>
+            <li><a href="#">PYTHON</a></li>
+            <li><a href="#">PHP</a></li>
+            <li><a href="#">BOOTSTRAP</a></li>
+            <li><a href="#">HOW TO</a></li>
+            <li><a href="#">W3.CSS</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="drop">JAVA</a>
+                <div class="Javacontent">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 4</a>
+                </div>
+            </li>
+            <li><a href="#">JQUERY</a></li>
+            <li><a href="#">C</a></li>
+        </ul>
+    </div>
+    <div class="background">
+        <h1>How to Create Your Website Using WordPress</h1>
+        <a href="http//:www.wordpress.org">Start Now!</a>
+    </div>
+    <div class="company">
+        <p> About Our Company</p>
+    </div>
+
+</body>
+
+</html>

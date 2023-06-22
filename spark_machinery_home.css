@@ -1,0 +1,525 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div.header {
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    background-color: #40211e;
+    position: relative;
+}
+
+div.header div.logo {
+    width: 30%;
+    height: auto;
+    padding: 30px 30px;
+    margin: 0;
+    float: left;
+}
+
+div.header div.menu {
+    width: 40%;
+    height: auto;
+    padding: 20px 10px;
+    margin: 10px 50px;
+    float: left;
+    padding-right: 50px;
+}
+
+div.header div.menu>ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+}
+
+div.header div.menu>ul>li {
+    display: inline-block;
+}
+
+div.header div.menu>ul>li>a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px 20px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.header div.menu>ul>li>ul {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: none;
+}
+
+div.header div.menu>ul>li>ul>li>a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.header div.menu>ul>li>ul {
+    display: none;
+}
+
+div.header div.menu>ul>li>a:hover {
+    color: black;
+}
+
+div.header div.menu>ul>li:hover>ul {
+    display: block;
+    background-color: #40211e;
+}
+
+div.header div.button {
+    width: 12%;
+    float: left;
+    margin: 30px 0px;
+    padding: 15px 5px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+div.header div.button a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #af4a09;
+    text-align: center;
+    padding: 20px 15px;
+    font-weight: 600;
+}
+
+div.header div.button:hover {
+    background-color: #381602;
+}
+
+div.header div.button a:hover {
+    color: white;
+}
+
+section {
+    background-image: url("./images/Photoshop-Replace-Background-Featured.webp");
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: right bottom;
+    width: auto;
+}
+
+section div.text>h2 {
+    margin: 0;
+    padding: 120px 0px 0px;
+    text-align: center;
+    width: 100%;
+    clear: both;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: white;
+    letter-spacing: 0.2em;
+}
+
+section div.text div.line {
+    width: 10%;
+    height: 3px;
+    background-color: #381602;
+    margin: 10px auto;
+}
+
+section div.text>h1 {
+    margin: 0;
+    padding: 50px 0px 0px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    color: White;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+section div.text>a {
+    background-color: #381602;
+    color: white;
+    width: 15%;
+    margin: 20px auto;
+    padding: 10px 10px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 30px;
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 0.2;
+    text-decoration: none;
+}
+
+section div.text:hover>a {
+    background-color: white;
+    color: #381602;
+}
+
+div.tx {
+    width: auto;
+    background-color: white;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+div.tx div.text1>h3 {
+    margin: 0;
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+div.tx div.text1>p {
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+div.tx1 div.text2 {
+    width: auto;
+    background-color: white;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+div.tx1 div.text2 {
+    margin-bottom: 100px;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+
+div.blurb {
+    width: 100%;
+    background-color: white;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+div.blurb div.blurb1 {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+div.blurb div.blurb2 {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+div.blurb div.blurb1>img {
+    padding: 0;
+    margin: 0px;
+    margin-left: 300px;
+    text-align: center;
+    border: solid 5px #381602;
+}
+
+div.blurb div.blurb2 img {
+    padding: 0;
+    margin: 0px;
+    text-align: left;
+    margin-left: 50px;
+    border: solid 5px #381602;
+}
+
+div.words {
+    width: 100%;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    height: 300px;
+}
+
+div.words div.words1 {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+div.words div.words2 {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+div.words div.words1>h5 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 20px;
+    margin-left: 280px;
+    font-size: 1.5em;
+}
+
+div.words div.words1>p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 50px;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 250px;
+}
+
+div.words div.words1>a {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 0;
+    margin-left: 400px;
+    background-color: #381602;
+    color: white;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.words div.words1>a:hover {
+    background-color: white;
+    color: #381602;
+    border: 2px solid #381602;
+}
+
+div.words div.words2>h5 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 20px;
+    margin-right: 250px;
+    font-size: 1.5em;
+}
+
+div.words div.words2>p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 50px;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 250px;
+}
+
+div.words div.words2>a {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 0;
+    background-color: #381602;
+    color: white;
+    margin-left: 150px;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.words div.words2>a:hover {
+    background-color: white;
+    color: #381602;
+    border: 2px solid #381602;
+    box-shadow: 0 4px 8px 0 rgba(221, 13, 13, 0.2), 0 6px 20px 0 rgba(245, 239, 239, 0.19);
+}
+
+div.section {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 800px;
+    background-image: url(./images/Group\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    clear: both;
+}
+
+div.section div.blurb {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    float: left;
+    height: 500px;
+    background-image: url(./images/Group\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+div.section div.blurb>h1 {
+    padding: 0;
+    margin: 0;
+}
+
+div.section div.blurb1 {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    float: left;
+    height: 500px;
+}
+
+div.section div.blurb1 div.line {
+    width: 50px;
+    height: 5px;
+    background-color: #381602;
+    margin: 10px 0;
+}
+
+div.section div.blurb1>h2 {
+    margin: 0;
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+}
+
+div.section div.blurb1>p {
+    margin: 50px 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.section div.blurb1>a {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #381602;
+    color: white;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+
+div.section div.blurb1>a:hover {
+    background-color: white;
+    color: #381602;
+    border: 2px solid #381602;
+}
+
+div.section1 {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    clear: both;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 300px;
+}
+
+div.section1 div.pics {
+    width: 33.33%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    height: 500px;
+}
+
+div.section1 div.pics1 {
+    width: 33.33%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    height: 500px;
+}
+
+div.section1 div.pics2 {
+    width: 33.33%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    height: 500px;
+}
+
+div.section1 div.pics>h2 {
+    margin: 0;
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-left: 50px;
+}
+
+div.section1 div.pics>p {
+    margin: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    margin-left: 50px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+div.section1 div.pics>a {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #381602;
+    color: white;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+}
+
+div.section1 div.pics>a:hover {
+    background-color: white;
+    color: #381602;
+    border: 2px solid #381602;
+}
+
+div.section1 div.pics1>img {
+    margin-top: 100px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.section1 div.pics1 div.image>img {
+    margin: 0;
+    border-radius: 20px;
+    margin-left: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.section1 div.pics2>img {
+    margin-top: 100px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.section1 div.pics2 div.image1>img {
+    margin: 0;
+    border-radius: 20px;
+    margin-left: 40px;
+    clear: both;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.section2 {
+    width: 100%;
+    background-color: black;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+div.section2>p {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-top: 40px;
+}

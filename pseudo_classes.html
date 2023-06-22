@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class</title>
+    <style>
+        a:link {
+            color: rgb(99, 4, 52);
+        }
+        
+        a:visit {
+            color: brown;
+        }
+        
+        a:hover {
+            color: black;
+        }
+        
+        a:active {
+            color: blue
+        }
+        
+        a.Login:hover {
+            color: blueviolet;
+            font-size: 20px;
+        }
+        
+        div:hover p {
+            display: block;
+        }
+        
+        div.door p.intro::first-letter {
+            color: blue;
+            font-size: 200%;
+        }
+        
+        div.door p.intro::first-line {
+            color: brown;
+            font-variant: small-caps
+        }
+        
+        div.door p:nth-child(3) {
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><a href="http://www.facebook.com" target="_blank">Click Here For Facebook</a></h1>
+    <h4><a class="Login" href="http://www.gmail.com" target="_blank"> Please Enter Email</a></h4>
+    <div>
+        Come to School
+        <p> Let everyone submit all required documents</p>
+    </div>
+    <div class="door">
+        <p class="intro">Let everyone submit all requiredd document</p>
+        <p>Let everyone submit all required documents</p>
+        <p>Type all information correctly</p>
+    </div>
+</body>
+
+</html>

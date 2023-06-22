@@ -1,0 +1,383 @@
+    body {
+        margin: 0;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    header {
+        position: sticky;
+        top: 0;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        background-color: #183961;
+        ;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a,
+    .dropdown {
+        display: inline-block;
+        color: #ffa418;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+    }
+    
+    li a:hover,
+    .mydrop:hover .dropdown:hover {
+        background-color: white;
+    }
+    
+    li.mydrop {
+        display: block;
+    }
+    
+    .dropitems {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 50;
+    }
+    
+    .dropitems a {
+        display: block;
+        color: blue;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .dropitems a:hover {
+        background-color: red;
+    }
+    
+    .mydrop:hover .dropitems {
+        display: block;
+    }
+    
+    .background {
+        background-image: url(./images/Landscape-Color.jpg);
+        background-repeat: no-repeat;
+        height: 612px;
+    }
+    
+    ul {
+        margin: 0;
+    }
+    
+    .background h1 {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        text-shadow: 2px 2px 5px #ffa418;
+        padding: 120px 0px 0px;
+        text-align: center;
+        font-size: 5em;
+    }
+    
+    .background a {
+        background-color: #183961;
+        color: white;
+        width: 20%;
+        margin: 20px auto;
+        padding: 10px 10px;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 8px;
+        display: block;
+        text-align: center;
+        font-size: 2.5em;
+        letter-spacing: 3px;
+        text-decoration: none;
+    }
+    
+    .background a:hover {
+        background-color: #ffa418;
+        color: #183961;
+    }
+    
+    .about h2 {
+        text-align: center;
+        color: #183961;
+        font-family: 'Roboto', sans-serif;
+        font-size: 3em;
+    }
+    
+    div.gallery {
+        margin: 10px;
+        margin-bottom: 70px;
+        border: 4px solid #183961;
+        float: left;
+        width: 400px;
+        padding: 8px 5px;
+        overflow: hidden;
+    }
+    
+    .desc {
+        padding: 10px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+        color: #183961;
+    }
+    
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .mydiv {
+        margin: 10px 40px;
+    }
+    
+    .nav {
+        margin: 50px auto;
+        width: 100%;
+        float: left;
+    }
+    
+    div.blurb {
+        background-color: #8a4444;
+        width: 30%;
+        float: left;
+        margin: 20px 10px;
+        height: 400px;
+        margin-left: 50px;
+        border-radius: 10px;
+    }
+    
+    h4 {
+        text-align: center;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+    }
+    
+    h5 {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        padding: 0px 20px;
+        line-height: 1.5;
+        color: white;
+    }
+    
+    nav a {
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        background-color: #ffa418;
+        border: 2px solid red;
+        font-size: 1.5em;
+        padding: 10px 10px;
+        border-radius: 5px;
+        margin-left: 20px;
+        color: white;
+    }
+    
+    nav a:hover {
+        background-color: red;
+        border: 2px solid #ffa418;
+    }
+    
+    div.boots {
+        text-align: center;
+        color: #ffa418;
+        width: 100%;
+        font-size: 3em;
+        margin-top: 40px;
+    }
+    
+    div.boots:hover {
+        color: white;
+        font-size: 3.5em;
+    }
+    
+    div.blurb1 {
+        background-color: #6c09ee;
+        width: 30%;
+        float: left;
+        margin: 20px 10px;
+        height: 400px;
+        border-radius: 10px;
+    }
+    
+    div.blurb2 {
+        background-color: #87b310;
+        width: 30%;
+        float: left;
+        margin: 20px 10px;
+        height: 400px;
+        border-radius: 10px;
+    }
+    
+    section {
+        width: 100%;
+        height: auto;
+        clear: both;
+        background-color: white;
+        margin-top: 10px;
+        overflow: auto;
+    }
+    
+    section .info1 h3 {
+        font-size: 2em;
+        font-family: 'Roboto', sans-serif;
+        padding: 10px 30px;
+        margin: 10px 40px;
+    }
+    
+    section .info1 {
+        width: 50%;
+        float: left;
+        Margin: 0px 0px;
+    }
+    
+    div.info1 p {
+        font-size: 1em;
+        font-family: 'Roboto', sans-serif;
+        padding: 10px 30px;
+        margin: 0px 40px;
+        text-align: justify;
+        line-height: 1.5em;
+        color: gray;
+        font-weight: 500;
+    }
+    
+    section .info2 {
+        width: 50%;
+        float: left;
+        Margin: 0px 0px;
+    }
+    
+    section .info2 img {
+        float: right;
+        padding: 60px 60px;
+    }
+    
+    section .info3 {
+        width: 100%;
+        float: left;
+        Margin: 0px 0px;
+    }
+    
+    section .info3 .boots1 i {
+        text-align: left;
+        margin-left: 70px;
+        margin-right: 0px;
+        font-size: 2.5em;
+        padding: 0;
+        color: #ffa418;
+    }
+    
+    section .info3 .boots1 h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        padding-left: 10px;
+    }
+    
+    section .info3 .boots1 p {
+        padding: 0px 80px;
+        margin-bottom: 20px;
+    }
+    
+    section .info3 .boots2 i {
+        text-align: left;
+        margin-left: 70px;
+        margin-right: 0px;
+        font-size: 2.5em;
+        padding: 0;
+        color: red;
+    }
+    
+    section .info3 .boots2 h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        padding-left: 10px;
+    }
+    
+    section .info3 .boots2 p {
+        padding: 0px 80px;
+        margin-bottom: 20px;
+    }
+    
+    section .info3 .boots3 i {
+        text-align: left;
+        margin-left: 70px;
+        margin-right: 0px;
+        font-size: 2.5em;
+        padding: 0;
+        color: #183961;
+    }
+    
+    section .info3 .boots3 h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        padding-left: 10px;
+    }
+    
+    section .info3 .boots3 p {
+        padding: 0px 80px;
+    }
+    
+    div.footer {
+        background-color: #171717;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        width: 100%;
+        overflow: auto;
+        clear: both;
+    }
+    
+    div.footer .footer1 h6 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.8em;
+        float: left;
+        color: rgb(99, 94, 94);
+        margin: 0;
+        padding: 20px 50px;
+        width: 50%;
+    }
+    
+    div.footer div.footer2 {
+        display: inline-block;
+        margin: 0px;
+        width: 50%;
+        padding-left: 300px;
+    }
+    
+    div.footer div.footer2 li a {
+        text-decoration: none;
+        list-style-type: none;
+        color: rgb(99, 94, 94);
+        padding: 10px;
+        font-size: 1.5em;
+        background-color: none;
+    }
+    
+    div.footer div.footer2 li a:hover {
+        color: #183961;
+        font-size: 2em;
+    }
