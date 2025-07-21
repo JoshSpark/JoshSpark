@@ -1,11 +1,18 @@
 body {
     margin: 0;
+   
+  
 }
 
 * {
     box-sizing: border-box;
+   
+   
 }
-
+div.wrap {
+    margin: 0;
+    width: 100%;
+}
 div.hd {
     background-color: #0c71c3;
     width: 100%;
@@ -25,13 +32,14 @@ div.hd3 {
     margin: 0;
     float: left;
 }
-
-div.h4 {
+div.hd5 {
     width: 20%;
     padding: 0;
     margin: 0;
     float: left;
+    padding-left: 80px;
 }
+
 
 div.hd2>i {
     padding: 20px 20px;
@@ -65,14 +73,9 @@ div.hd3>a {
     color: white;
 }
 
-div.hd4 div.hd5 {
-    padding: 0;
-    margin: 0;
-    float: left;
-    padding-left: 80px;
-}
 
-div.hd4 div.hd5>a {
+
+ div.hd5>a {
     padding: 20px 10px;
     margin: 0;
     float: left;
@@ -111,7 +114,8 @@ div.nd div.nd5 {
 div.nd div.nd2>img {
     padding: 0;
     margin: 0;
-    padding-top: 15px;
+    padding-top: 3px;
+    padding-left: 15px;
 }
 
 div.nd div.nd3 div.nd4>ul {
@@ -143,13 +147,13 @@ div.nd div.nd3 div.nd4>ul>li>a:hover {
 div.nd div.nd3 div.nd4 {
     padding: 0;
     margin: 0;
-    padding-left: 250px;
+    padding-left: 150px;
 }
 
 div.nd div.nd5 {
     padding: 0;
     margin: 0;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 div.nd div.nd5>a {
@@ -192,7 +196,7 @@ div.dr div.dr1>h2 {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    color: white;
+    color: #ffffff;
     letter-spacing: 2px;
 }
 
@@ -201,8 +205,17 @@ div.dr div.dr1>h1 {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    color: white;
+    color: #ffffff;
     font-size: 4em;
+}
+div.dr div.dr1>h3 {
+    padding: 0;
+    padding-top: 20px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 2px;
 }
 
 div.dr div.dr1>a {
@@ -501,8 +514,6 @@ div.section1 div.title2 div.title3 {
 }
 
 div.section1 div.title2 div.title3>div.dy {
-    padding: 0;
-    margin: 0;
     float: left;
     font-size: 2em;
     padding-right: 20px;
@@ -523,8 +534,6 @@ div.section1 div.title2 div.title3>div.dyy>h4 {
 }
 
 div.section1 div.title2 div.title3>div.dyy1 {
-    padding: 0;
-    margin: 0;
     font-family: 'Roboto', sans-serif;
     padding-left: 50px;
     line-height: 1.5em;
@@ -550,8 +559,6 @@ div.section1 div.live div.live1 {
 }
 
 div.section1 div.live div.live1>div.xy {
-    padding: 0;
-    margin: 0;
     float: left;
     font-size: 2em;
     padding-right: 20px;
@@ -960,12 +967,11 @@ div.words2 {
     display: flex;
     flex-wrap: wrap;
     background-color: #ffffff;
-    height: 100px;
     flex: 100%;
 }
 
 div.words2>div.wrds {
-    margin: 20px 30px;
+    margin: 20px 70px;
     padding: 0;
     display: flex;
     flex-flow: column wrap;
@@ -1009,7 +1015,6 @@ div.words2>div.wrds1>p {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    padding-top: 10px;
 }
 
 div.words2>div.wrds2 {
@@ -1208,6 +1213,7 @@ div.li1 div.li2>div.line4 {
 div.tips {
     padding: 0;
     margin: 0;
+    margin-top: 50px;
     background-image: url(./images/callout-section.jpg);
     background-repeat: none;
     background-size: cover;
@@ -1274,7 +1280,7 @@ div.dips {
     padding: 0;
     margin: 0;
     width: auto;
-    height: 200px;
+
 }
 
 div.dips div.dp {
@@ -1313,6 +1319,7 @@ div.dips div.myfix {
 div.dips div.myfix div.fix {
     padding: 0;
     margin: 50px 30px;
+
 }
 
 div.dips div.myfix div.fix>img {
@@ -1373,7 +1380,7 @@ div.footer div.spaces {
 }
 
 div.spaces div.spaces1>h4 {
-    padding: 0px 30px;
+    padding: 0px 10px;
     margin: 0;
     margin-bottom: 20px;
     flex-flow: column wrap;
@@ -1384,8 +1391,8 @@ div.spaces div.spaces1>h4 {
 }
 
 div.spaces div.spaces1>p {
-    padding: 0px 30px;
-    padding-bottom: 20px;
+    padding: 0px 10px;
+    padding-bottom: 10px;
     margin: 0;
     flex-flow: column wrap;
     font-family: 'Poppins', sans-serif;
@@ -1402,6 +1409,40 @@ div.spaces div.spaces1>a {
     border: 1px solid white;
     border-radius: 30px;
 }
+div.spaces div.spaces1>button{
+padding: 10px 20px;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(to bottom right, #0c71c3, rgb(2, 2, 58));
+  color: #ffffff;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+div.spaces div.spaces1>button:hover{
+ 
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to bottom right, #6497c2, rgb(26, 26, 224));
+    color: #ffffff;
+ 
+}
+div.spaces div.spaces1 div.socials{
+    margin-left: 10px;
+}
+div.spaces div.spaces1 div.socials>a{
+    padding: 10px 7px;
+    margin: 0;
+    margin-left: 30px;
+    flex-flow: column wrap;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+div.spaces div.spaces2{
+    margin-right: 20px;
+}
 
 div.spaces div.spaces2>h4 {
     padding: 0;
@@ -1412,6 +1453,7 @@ div.spaces div.spaces2>h4 {
     font-size: 1.5em;
     letter-spacing: 3px;
     padding-bottom: 20px;
+   
 }
 
 div.spaces div.spaces2>a {
@@ -1422,6 +1464,10 @@ div.spaces div.spaces2>a {
     text-decoration: none;
     color: #ffffff;
     line-height: 2em;
+    margin-right: 20px;
+}
+div.spaces div.spaces2>a:hover{
+    border-bottom:  1px solid white;
 }
 
 div.spaces div.spaces3>h4 {
@@ -1443,6 +1489,9 @@ div.spaces div.spaces3>a {
     text-decoration: none;
     color: #ffffff;
     line-height: 2em;
+}
+div.spaces div.spaces3>a:hover {
+     border-bottom:  1px solid white;
 }
 
 div.spaces div.spaces4>h4 {

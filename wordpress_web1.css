@@ -1,0 +1,196 @@
+@media (max-width: 1209px) {
+div.section div.section11>div.title>h3 {
+    padding-top: 10px;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+div.section1 div.title2 div.title3>div.dyy>h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    padding-bottom: 5px;
+}
+div.section div.section11>div.title1 {
+    line-height: 1.3em;
+    font-size: 0.9em;
+}
+div.section1 div.title2 {
+    padding: 0;
+    margin: 0;
+    float: left;
+    padding-top: 20px;
+}
+div.section1 div.title2 div.title3>div.dy {
+    font-size: 1.5em;
+    color: orange;
+}
+div.section1 div.title2 div.title3>div.dyy1 {
+    padding-left: 40px;
+    line-height: 1.2em;
+    font-size: 1em;
+}
+div.section1 div.live div.live1>div.xy {
+    font-size: 1.5em;
+    color: red;
+}
+div.section1 div.live div.live1>div.xyy>h4 {
+    font-size: 1.2em;
+    padding-bottom: 5px;
+}
+div.section1 div.live div.live1>div.xyy1 {
+    padding-left: 40px;
+    line-height: 1.2em;
+}
+div.section1 div.lt div.lt1>div.fy {
+    font-size: 1.5em;
+    color: #0c71c3;
+}
+div.section1 div.lt div.lt1>div.fyy>h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    padding-bottom: 5px;
+}
+div.section1 div.lt div.lt1>div.fyy1 {
+    padding-left: 40px;
+    line-height: 1.2em;
+}
+div.section3 {
+    margin-top: -70px;
+}
+div.section3 div.text div.txts1>h3 {
+    font-size: 2.1em !important;
+}
+div.words2>div.wrds>h4 {
+    font-size: 1.5em;
+}
+div.words2>div.wrds1>p {
+    font-size: 0.8em;
+}
+div.li1 div.li2>div.line2 {
+    margin-left: 200px;
+}
+div.li1 div.li2>div.line3 {
+    margin-left: 200px;
+}
+div.li1 div.li2>div.line4 {
+    margin-left: 200px;
+}
+div.tips {
+    margin-top: -50px;
+}
+div.dips div.myfix div.fix {
+    padding: 0;
+    margin: 10px 30px;
+}
+div.dips div.myfix div.fix>img {
+    padding: 20px 30px;
+}
+}
+@media (max-width: 1205px){
+    div.tips {
+    margin-top: 50px;
+}
+}
+@media (max-width: 1192px){
+    div.li1 div.li2>div.line2 {
+    margin-left: 200px;
+}
+div.li1 div.li2>div.line3 {
+    margin-left: 200px;
+}
+div.li1 div.li2>div.line4 {
+    margin-left: 200px;
+}
+}
+@media (max-width: 1181px){
+    div.dips div.myfix div.fix>img {
+    padding: 10px 20px;
+}
+div.dips div.myfix div.fix {
+    padding: 0;
+    margin: 30px 30px;
+}
+    div.li1 div.li2>div.line2 {
+    margin-left: 193px;
+}
+div.li1 div.li2>div.line3 {
+    margin-left: 193px;
+}
+div.li1 div.li2>div.line4 {
+    margin-left: 193px;
+}
+}
+@media (max-width: 1128px){
+    div.dips div.dp {
+    margin-left: 350px;
+}
+}
+@media (max-width: 1118px){
+    div.hd5 {
+    width: 20%;
+    padding: 0;
+    margin: 0;
+    float: left;
+    
+}
+
+div.dr div.dr1> h3{
+    font-size: 1em;
+}
+}
+@media (max-width: 1060px){
+    div.bs > div.bs1{
+        margin-right: 40px;
+    }
+    div.bs div.bs1 div.bs11 div.blurb {
+        padding-bottom: 30px !important
+    }
+    div.bs div.bs1 div.blurb div.myii span.tx > h4{
+        font-size: 1.2em;
+    }
+    div.bs div.bs1 div.blurb div.myi > span{
+        font-size: 1.5em;
+    }
+     div.bs > div.bs2{
+        margin-right: 40px;
+    }
+     div.bs div.bs2 div.bs12 div.blurb1 {
+        padding-bottom: 30px !important
+    }
+    div.bs div.bs2 div.blurb1 div.nyi > span{
+        font-size: 1.5em;
+    }
+    div.bs div.bs2 div.blurb1 div.nyii span.dx > h4{
+        font-size: 1.2em;
+    }
+    div.bs div.bs2 div.blurb1 div.nyiii{
+        font-size: 0.9em
+    }
+    div.bs > div.bs3{
+        margin-right: 40px;
+    }
+      div.bs div.bs3 div.bs13 div.blurb2 {
+        padding-bottom: 20px !important
+    }
+    div.bs div.bs3 div.blurb2 div.oyi > span{
+        font-size: 1.5em;
+    }
+    div.bs div.bs3 div.blurb2 div.oyii span.ex >h4{
+        font-size: 1.2em;
+    }
+     div.bs div.bs3 div.blurb2 div.oyiii{
+        font-size: 0.9em;
+    }
+     div.bs div.bs4 div.bs14 div.blurb3 {
+        padding-bottom: 30px !important
+    }
+     div.bs div.bs4 div.blurb3 div.pyi > span {
+        font-size: 1.5em;
+    }
+    div.bs div.bs4 div.blurb3 div.pyii span.fx >h4{
+        font-size: 1.2em;
+    }
+     div.bs div.bs4 div.blurb3 div.pyiii{
+        font-size: 0.9em;
+    }
+}
