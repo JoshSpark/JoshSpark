@@ -50,6 +50,22 @@
 // let age = prompt("What is your age");
 // let message = (age >= 18) ? "You are welcome" : "Sorry you must be 18years at least to be able to view this content";
 // alert(message);
-let company = prompt('which company created Javascript', '');
-let answer = (company == 'Netscape') ? 'You are correct' : 'Wrong';
-alert(answer);
+// let company = prompt('which company created JavascriptP', '');
+// let answer = (company == 'Netscape') ? 'You are correct' : 'Wrong';
+// alert(answer);
+var database = [
+    {
+        username: "josh",
+        password: "supersecret"
+    }
+];
+
+var usernamePrompt = prompt("What's your username");
+var passwordPrompt = prompt("What's your password");
+
+function signIn(user, pass){
+    if(user === database[0].username &&
+    pass === database[0].password){
+        console.log()
+    }
+}

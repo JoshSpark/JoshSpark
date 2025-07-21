@@ -1,13 +1,13 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
-import org.w3c.dom.Node;
+// import org.w3c.dom.Node;
 
-public class Practice{
-    public static void main(String[] args){
+// public class Practice{
+//     public static void main(String[] args){
         
-        String name = "I have mastered string manipulation in java";
+//         String name = "I have mastered string manipulation in java";
 
-        System.out.println(name.charAt(4));
+//         System.out.println(name.charAt(4));
 
 
         /*if(condition){
@@ -28,30 +28,44 @@ public class Practice{
             // statement
         } while(condition);*/
 
-        String msg = "tphqics{ [izs& 5aA xm9o3vHiYet!%!";
-        String decoded = "";
+//         String msg = "tphqics{ [izs& 5aA xm9o3vHiYet!%!";
+//         String decoded = "";
 
-        for(int i = 0; i < msg.length(); i++)
-            if(i % 2 == 0)
-                decoded += msg.charAt(i);
-
-
-        System.out.println(decoded);
+//         for(int i = 0; i < msg.length(); i++)
+//             if(i % 2 == 0)
+//                 decoded += msg.charAt(i);
 
 
-        int [][] num = {
-            {5, 1, 0}, {2, 3, 4}
-        };
-    }
+//         System.out.println(decoded);
 
-    // Node class
-    private static class Node<AnyType>{
-        private AnyType data;
-        private Node<AnyType> next;
 
-        Node<AnyType>(AnyType data, Node<AnyType> next){
-            this.data = data;
-            this.next = next;
-        }
+//         int [][] num = {
+//             {5, 1, 0}, {2, 3, 4}
+//         };
+//     }
+
+//     // Node class
+//     private static class Node<AnyType>{
+//         private AnyType data;
+//         private Node<AnyType> next;
+
+//         Node<AnyType>(AnyType data, Node<AnyType> next){
+//             this.data = data;
+//             this.next = next;
+//         }
+//     }
+// }
+import java.util.Scanner;
+class apples {
+    public static void main (String args[]){
+        Scanner Bucky = new Scanner (System.in);
+        double snum, pnum, answer;
+        System.out.println("Enter the first Number: ");
+        snum = Bucky.nextDouble();
+        System.out.println("Enter the second Number: ");
+        pnum = Bucky.nextDouble();
+        answer = snum + pnum;
+        System.out.println(answer);
+
     }
 }
