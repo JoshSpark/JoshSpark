@@ -6,8 +6,8 @@ body {
 
 * {
     box-sizing: border-box;
-   
-   
+    outline: 1px solid red;
+    
 }
 div.wrap {
     margin: 0;
@@ -72,8 +72,6 @@ div.hd3>a {
     text-decoration: none;
     color: white;
 }
-
-
 
  div.hd5>a {
     padding: 20px 10px;
@@ -147,7 +145,7 @@ div.nd div.nd3 div.nd4>ul>li>a:hover {
 div.nd div.nd3 div.nd4 {
     padding: 0;
     margin: 0;
-    padding-left: 150px;
+    padding-left: 5em;
 }
 
 div.nd div.nd5 {
@@ -223,7 +221,7 @@ div.dr div.dr1>a {
     margin: 20px auto;
     text-align: center;
     text-decoration: none;
-    background-image: linear-gradient(to right, rgb(2, 2, 58), #0c71c3);
+    background-color: #0c71c3;
     font-family: 'Roboto', sans-serif;
     font-weight: 700 !important;
     color: #ffffff;
@@ -235,7 +233,7 @@ div.dr div.dr1>a {
 }
 
 div.dr div.dr1>a:hover {
-    background-image: linear-gradient(to right, #0c71c3, rgb(151, 151, 235));
+    background-color: rgb(2, 2, 58);
 }
 
 div.bs {
@@ -450,7 +448,7 @@ div.section {
 
 div.section div.section1 {
     margin: 0;
-    padding: 0px 40px;
+    padding: 0px 20px;
     width: 50%;
     float: left;
     height: 100px;
@@ -704,8 +702,8 @@ div.section3 div.tss div.tss1 {
     height: 250px;
     float: left;
     background-color: rgba(10, 10, 10, 0.28);
-    margin-left: 50px;
-    margin-right: 40px;
+    margin-left: 2.3em;
+    margin-right: 2em;
 }
 
 div.tss div.tss1 div.ts {
@@ -826,7 +824,7 @@ div.section3 div.gs1 div.gss1 {
     padding: 20px 30px;
     margin: 0;
     width: 20%;
-    height: 250px;
+    height: auto;
     float: left;
     background-color: rgba(10, 10, 10, 0.28);
     margin-left: 40px;
@@ -951,7 +949,7 @@ div.set div.words1 {
     clear: both;
     width: 30%;
     text-align: left;
-    margin-left: 170px;
+    margin-left: 187px;
     padding-top: 60px;
 }
 
@@ -971,7 +969,7 @@ div.words2 {
 }
 
 div.words2>div.wrds {
-    margin: 20px 70px;
+    margin: 20px 60px;
     padding: 0;
     display: flex;
     flex-flow: column wrap;
@@ -1283,32 +1281,6 @@ div.dips {
 
 }
 
-div.dips div.dp {
-    padding: 0;
-    margin: 0;
-    background-color: #ffffff;
-    height: 50px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    position: absolute;
-    z-index: 5;
-    margin-top: -30px;
-    margin-left: 400px;
-    min-height: 1px;
-    text-align: center;
-}
-
-div.dips div.dips1 {
-    padding: 15px 80px;
-    margin: 0;
-}
-
-div.dips div.dips1>p {
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
 div.dips div.myfix {
     padding: 0;
     margin: 0;
@@ -1331,7 +1303,7 @@ div.dips div.myfix div.fix>img {
 div.footer {
     padding: 0;
     margin: 0;
-    height: 500px;
+    height: auto;
     background-color: #232733;
 }
 
@@ -1341,7 +1313,7 @@ div.footer div.foot {
 }
 
 div.footer div.foot>div.foot1 {
-    padding: 40px 200px;
+    padding: 20px 80px;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
@@ -1351,7 +1323,7 @@ div.footer div.foot>div.foot1 {
 }
 
 div.footer div.foot>div.foot1>p {
-    margin: 20px 30px;
+    margin: 10px 20px;
     padding: 0;
     font-size: 1em;
     text-align: justify;
@@ -1372,11 +1344,15 @@ div.footer div.line1 {
 }
 
 div.footer div.spaces {
-    padding: 0;
-    margin: 50px 50px;
+    padding: 20px 0px;
+    margin: 0px 20px;
     display: flex;
     flex-wrap: wrap;
     flex-flow: row;
+}
+div.footer div.spaces div.spaces1{
+    padding: 0;
+    margin: 0;
 }
 
 div.spaces div.spaces1>h4 {
@@ -1428,12 +1404,12 @@ div.spaces div.spaces1>button:hover{
  
 }
 div.spaces div.spaces1 div.socials{
-    margin-left: 10px;
+    margin-left: 0px;
 }
 div.spaces div.spaces1 div.socials>a{
     padding: 10px 7px;
     margin: 0;
-    margin-left: 30px;
+    margin-left: 11px;
     flex-flow: column wrap;
     color: #ffffff;
     border: 1px solid white;
