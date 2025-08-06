@@ -196,6 +196,7 @@ div.dr div.dr1>h2 {
     text-align: center;
     color: #ffffff;
     letter-spacing: 2px;
+    font-size: 2em;
 }
 
 div.dr div.dr1>h1 {
@@ -214,6 +215,7 @@ div.dr div.dr1>h3 {
     text-align: center;
     color: #ffffff;
     letter-spacing: 2px;
+    font-size: 1.2em;
 }
 
 div.dr div.dr1>a {
@@ -1288,9 +1290,10 @@ div.dips div.myfix {
     flex-wrap: wrap;
 }
 
+
 div.dips div.myfix div.fix {
     padding: 0;
-    margin: 50px 30px;
+    margin: 0px 30px;
 
 }
 

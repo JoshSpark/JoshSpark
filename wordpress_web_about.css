@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+   
+  
+}
+
+* {
+    box-sizing: border-box;
+    
+}
+div.head {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 80px;
+}
+div.head div.head1 {
+    padding: 0;
+    margin: 0;
+    width: 20%;
+    float: left;
+}
+div.head div.head2 {
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    float: left;
+}
+div.head div.head4 {
+    padding: 0;
+    margin: 0;
+    width: 20%;
+    float: left;
+}
+div.head div.head1>img {
+    padding: 0;
+    margin: 0;
+    padding-top: 3px;
+    padding-left: 15px;
+}
+div.head div.head2 div.head3>ul {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    padding-top: 20px;
+}
+div.head div.head2 div.head3>ul>li {
+    padding: 20px;
+    margin: 0px;
+    text-decoration: none;
+    display: inline-block;
+}
+div.head div.head2 div.head3>ul>li>a {
+    padding: 0;
+    margin: 0;
+    color: #0c71c3;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700 !important;
+}
+div.head div.head2 div.head3>ul>li>a:hover {
+    color: rgb(2, 2, 58);
+}
+div.head div.head2 div.head3 {
+    padding: 0;
+    margin: 0;
+    padding-left: 5em;
+}
+div.head div.head4 {
+    padding: 0;
+    margin: 0;
+    padding-top: 40px;
+}
+div.head div.head4>a {
+    padding: 20px 20px;
+    margin: 0;
+    text-align: center;
+    background-color: #0c71c3;
+    color: white;
+    border-radius: 5px 15px 5px 15px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700 !important;
+}
+div.head div.head4>a:hover {
+    background-color: rgb(2, 2, 58);
+}
+div.dr {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    clear: both;
+    background-image: url("./images/cheerful-emotional-team-reading-winning-results-on-monitor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    position: relative;
+}
+div.dr div.tip{
+    padding: 0;
+    margin: 0;
+    width: auto;
+    background-color: rgba(10, 10, 10, 0.60) !important;
+    height: 350px;
+}
+div.dr div.dr1>h1 {
+    padding: 0px 50px;
+    padding-top: 100px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: 4em;
+}
+
+div.about{
+    margin-top: 50px;
+    height: 300px;
+}
+div.about div.about1{
+    padding:0;
+    margin:0;
+}
+div.about div.about1>img{
+    padding: 30px;
+  margin: 0;
+  height: auto;
+  width: 50%;
+  background-position: center;
+  float: left;
+}
+div.about div.about2{
+padding: 0;
+  margin: 0;
+  height: auto;
+  width: 50%;
+  float: left;
+}

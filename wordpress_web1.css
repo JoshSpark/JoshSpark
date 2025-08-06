@@ -218,29 +218,11 @@ div.nd div.nd5>a {
     font-family: 'Roboto', sans-serif;
     font-weight: 600 !important;
 }
-div.dr div.dr1>h2 {
-    padding: 0;
-    padding-top: 4em;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    color: #ffffff;
-    letter-spacing: 2px;
-}
-div.dr div.dr1>h1 {
-    padding: 0px 50px;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    color: #ffffff;
-    font-size: 3em;
-}
-div.dr div.dr1>h3 {
-    font-size: 0.9em;
-}
-
 div.section div.section11 > div.title >h3 {
 font-size: 1.2em;
+}
+div.dr div.dr1 > h1{
+    font-size: 3em;
 }
 div.section1 div.title2 div.title3{
     font-size: 1em;
@@ -295,5 +277,8 @@ div.dr div.dr1 > a{
 div.dr div.dr1>a:hover {
     background-color: rgb(2, 2, 58);
 }
+ div.dips div.myfix div.fix{
+    margin: 0;
+ }
 
 }
