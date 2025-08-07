@@ -115,7 +115,7 @@ div.dr div.dr1>h1 {
 }
 
 div.about{
-    margin-top: 50px;
+    margin-top: 70px;
     height: 300px;
 }
 div.about div.about1{
@@ -124,16 +124,88 @@ div.about div.about1{
 }
 div.about div.about1>img{
     padding: 30px;
+    padding-right: 50px;
   margin: 0;
   height: auto;
   width: 50%;
   background-position: center;
   float: left;
+
 }
 div.about div.about2{
-padding: 0;
+padding: 10px;
   margin: 0;
   height: auto;
   width: 50%;
   float: left;
+}
+div.about div.about1 div.blurb{
+background-color: #0c71c3;
+  float: left;
+   position: absolute;
+    z-index: 1;
+    width: 45%;
+    height: 250px;
+    margin-top: 750px;
+    margin-left: 50px;
+    border-radius: 2px 15px 2px 15px;
+    padding-top: 40px;
+    padding-left: 20px;  
+    padding-right: 20px;  
+}
+div.about div.about1 div.blurb>p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    font-weight: lighter;
+    color: #ffffff;
+}
+div.about div.about1 div.blurb>h3{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+div.about div.about2>h2{
+font-family: 'Roboto', sans-serif;
+    color: #0c71c3;
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+}
+div.about div.about2>h1{
+font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 2.5em;
+    padding: 0;
+    font-weight: 500;
+    padding-top: 20px;
+}
+div.about div.about2>p{
+    margin:0;
+    padding:0;
+    padding-top: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', 'sans-serif';
+    line-height: 1.8em;
+    margin-right: 50px;
+    text-align: justify;
+    font-size: 1em;
+}
+div.about div.about2>button{
+    padding: 10px 20px;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(to bottom right, #0c71c3, rgb(2, 2, 58));
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+div.flx{
+    clear: both;
+    margin-left: 30px;
+    padding-top: 100px;
+    width: 100%;
 }

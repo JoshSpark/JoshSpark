@@ -6,7 +6,7 @@ body {
 
 * {
     box-sizing: border-box;
-    outline: 1px solid red;
+    
     
 }
 div.wrap {
@@ -1491,7 +1491,7 @@ div.spaces div.spaces4>p {
     font-family: 'Roboto', sans-serif;
     line-height: 2em;
     color: #ffffff;
-    padding-bottom: 20px;
+    padding-bottom: 70px;
 }
 
 div.spaces div.spaces4>a {
