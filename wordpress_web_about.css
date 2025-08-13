@@ -198,14 +198,105 @@ div.about div.about2>button{
   margin: 0;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  background-image: linear-gradient(to bottom right, #0c71c3, rgb(2, 2, 58));
+  background-image: linear-gradient(to bottom right, #0c71c3);
   color: #ffffff;
-  margin-top: 30px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 0.9em;
+   animation-name: example;
+  animation-duration: 3s;  
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}
+
+div.about div.about2>button:hover{
+background-image: linear-gradient(to bottom right, #025599);
+}
+div.about2>h4{
+   font-family: 'Roboto', sans-serif; 
+   font-weight: 500;
+}
+div.about2>h4>i{
+    padding-right: 10px;
+    color: #0c71c3;
+    font-size: 1.2em;
 }
 
 div.flx{
     clear: both;
-    margin-left: 30px;
-    padding-top: 100px;
     width: 100%;
+    background-image: url(./images/team-of-engineers-working.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ div.flx1{
+    padding: 0;
+  margin: 0;
+  width: auto;
+  background-color: rgba(10, 10, 10, 0.60) !important;
+  height: 400px;
+}
+div.flx2{
+    padding:0;
+    margin:0;
+    padding-top: 70px;
+}
+div.flx1 div.flx2>h1{
+    color: #0c71c3;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Roboto', sans-serif; 
+}
+div.flx1 div.flx2>h4{
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+}
+div.perfect{
+    padding: 0;
+  margin: 0;
+  width: auto;
+  height: 400px;
+  
+}
+div.perfect div.wrap{
+    display:flex;
+    flex-direction: row;
+    margin: 70px;
+}
+div.perfect1{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 50%;
+    background-image: url(./images/coworking-colleagues-having-conversation-at-workplace-1.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.perfect1 div.wrap1{
+    display:flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(10, 10, 10, 0.60) !important;
+    height: 400px;
+}
+
+div.perfect2{
+    display:flex;
+    flex-direction: row;
+    height: 100px;
+    width: 50%;
+    background-image: url(./images/coworking-colleagues-having-conversation-at-workplace-1.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

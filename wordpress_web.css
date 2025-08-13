@@ -1,7 +1,5 @@
 body {
     margin: 0;
-   
-  
 }
 
 * {
@@ -272,9 +270,9 @@ div.bs div.bs1 div.bs11 {
     padding-top: 100px;
 }
 
-div.bs div.bs1 div.bs11>div.blurb:hover {
+/* div.bs div.bs1 div.bs11>div.blurb:hover {
     border-left: green solid 3px;
-}
+} */
 
 div.bs div.bs1 div.blurb div.myi>span {
     color: #0c71c3;
@@ -311,7 +309,7 @@ div.bs div.bs2 div.bs12 div.blurb1 {
     background-color: #ffffff;
     height: 300px;
     transition: border 300ms ease 0ms;
-    box-shadow: green 10px 10px;
+    box-shadow: #0c71c3 10px 10px;
 }
 
 div.bs div.bs2 div.bs12 {
@@ -320,9 +318,9 @@ div.bs div.bs2 div.bs12 {
     padding-top: 100px;
 }
 
-div.bs div.bs2 div.bs12>div.blurb1:hover {
+/* div.bs div.bs2 div.bs12>div.blurb1:hover {
     border-left: green solid 3px;
-}
+} */
 
 div.bs div.bs2 div.blurb1 div.nyi>span {
     color: green;
@@ -359,7 +357,7 @@ div.bs div.bs3 div.bs13 div.blurb2 {
     background-color: #ffffff;
     height: 300px;
     transition: border 300ms ease 0ms;
-    box-shadow: red 10px 10px;
+    box-shadow: #0c71c3 10px 10px;
 }
 
 div.bs div.bs3 div.bs13 {
@@ -368,9 +366,9 @@ div.bs div.bs3 div.bs13 {
     padding-top: 100px;
 }
 
-div.bs div.bs3 div.bs13>div.blurb2:hover {
+/* div.bs div.bs3 div.bs13>div.blurb2:hover {
     border-left: green solid 3px;
-}
+} */
 
 div.bs div.bs3 div.blurb2 div.oyi>span {
     color: red;
@@ -406,7 +404,7 @@ div.bs div.bs4 div.bs14 div.blurb3 {
     background-color: #ffffff;
     height: 300px;
     transition: border 300ms ease 0ms;
-    box-shadow: orangered 10px 10px;
+    box-shadow: #0c71c3 10px 10px;
 }
 
 div.bs div.bs4 div.bs14 {
@@ -415,9 +413,9 @@ div.bs div.bs4 div.bs14 {
     padding-top: 100px;
 }
 
-div.bs div.bs4 div.bs14>div.blurb3:hover {
+/* div.bs div.bs4 div.bs14>div.blurb3:hover {
     border-left: green solid 3px;
-}
+} */
 
 div.bs div.bs4 div.blurb3 div.pyi>span {
     color: orangered;
