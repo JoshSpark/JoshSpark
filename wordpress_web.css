@@ -1273,7 +1273,10 @@ div.tips div.tips1>a:hover {
     color: #ffffff;
     border: #ffffff solid 3px;
 }
-
+div.add{
+    height: 70px;
+    width: auto;
+}
 div.dips {
     padding: 0;
     margin: 0;

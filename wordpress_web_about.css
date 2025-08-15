@@ -194,24 +194,46 @@ div.about div.about2>p{
     font-size: 1em;
 }
 div.about div.about2>button{
-    padding: 10px 20px;
-  margin: 0;
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  background-image: linear-gradient(to bottom right, #0c71c3);
-  color: #ffffff;
+ background-color: #0c71c3;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 0.7em;
+  padding: 20px;
+  width: 30%;
+  transition: all 0.5s;
   cursor: pointer;
   margin-top: 20px;
-  margin-bottom: 30px;
-  font-size: 0.9em;
-   animation-name: example;
-  animation-duration: 3s;  
-  animation-delay: 2s;
-  animation-fill-mode: both;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.2em;
 }
 
 div.about div.about2>button:hover{
 background-image: linear-gradient(to bottom right, #025599);
+}
+
+div.about div.about2 >button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+div.about div.about2> button::after{
+    content: '.\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+div.about div.about2> :hover span{
+    padding-right: 25px;
+}
+div.about div.about2> :hover span:after{
+    opacity: 3;
+    right: 0;
 }
 div.about2>h4{
    font-family: 'Roboto', sans-serif; 
@@ -227,7 +249,7 @@ div.flx{
     clear: both;
     width: 100%;
     background-image: url(./images/team-of-engineers-working.jpg);
-    height: 400px;
+    height: 450px;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -236,8 +258,8 @@ div.flx{
     padding: 0;
   margin: 0;
   width: auto;
-  background-color: rgba(10, 10, 10, 0.60) !important;
-  height: 400px;
+  background-color: rgba(10, 10, 10, 0.70) !important;
+  height: 450px;
 }
 div.flx2{
     padding:0;
@@ -249,6 +271,8 @@ div.flx1 div.flx2>h1{
     text-align: center;
     font-size: 2.5em;
     font-family: 'Roboto', sans-serif; 
+    margin:0;
+    padding:0;
 }
 div.flx1 div.flx2>h4{
     color: #ffffff;
@@ -256,12 +280,16 @@ div.flx1 div.flx2>h4{
     font-size: 1.2em;
     font-family: 'Roboto', sans-serif; 
     font-weight: 400;
+    padding:0;
+    margin:0;
+    padding-top: 20px;
 }
 div.perfect{
     padding: 0;
-  margin: 0;
+  margin: 0px 40px;
   width: auto;
-  height: 400px;
+  height: 700px;
+  margin-top: -180px;
   
 }
 div.perfect div.wrap{
@@ -275,9 +303,10 @@ div.perfect1{
     height: 100px;
     width: 50%;
     background-image: url(./images/coworking-colleagues-having-conversation-at-workplace-1.jpg);
-    height: 400px;
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 div.perfect1 div.wrap1{
     display:flex;
@@ -286,8 +315,8 @@ div.perfect1 div.wrap1{
     width: 100%;
     padding: 0;
     margin: 0;
-    background-color: rgba(10, 10, 10, 0.60) !important;
-    height: 400px;
+    background-color: rgba(10, 10, 10, 0.80) !important;
+    height: 600px;
 }
 
 div.perfect2{
@@ -296,7 +325,94 @@ div.perfect2{
     height: 100px;
     width: 50%;
     background-image: url(./images/coworking-colleagues-having-conversation-at-workplace-1.jpg);
-    height: 400px;
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+}
+div.perfect1 div.wrap1{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+div.perfect1 div.wrap1>h1{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif; 
+    color:#ffffff;
+    font-weight: 400;
+    font-size: 2.2em;
+    padding-bottom: 10px;
+}
+div.perfect1 div.wrap1>p{
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+div.perfect1 div.wrap1>h4{
+    color: #ffffff;
+    text-align: left;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    line-height: 2.3em;
+    padding: 0;
+    margin:0;
+}
+div.perfect1 div.wrap1>h4>i{
+    padding-right: 15px;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+div.perfect1 div.wrap1 div.wrap2{
+    display: flex;
+    flex-direction: row;
+}
+div.perfect1 div.wrap1 div.wrap2>button{
+  background-color: #0c71c3;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 20px;
+  width: 40%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.2em;
+}
+div.perfect1 div.wrap1 div.wrap2>button:hover{
+    background-image: linear-gradient(to bottom right, #025599);
+}
+div.perfect1 div.wrap1 div.wrap2 >button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+div.perfect1 div.wrap1 div.wrap2> button::after{
+    content: '.\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+div.perfect1 div.wrap1 div.wrap2> :hover span{
+    padding-right: 25px;
+}
+div.perfect1 div.wrap1 div.wrap2> :hover span:after{
+    opacity: 3;
+    right: 0;
+}
+div.perfect1 div.wrap1 div.wrap2>a{
+    display: flex;
+    width: 50%;
+    text-decoration: none;
+    padding-left: 120px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    color:#FFFFFF;
 }
