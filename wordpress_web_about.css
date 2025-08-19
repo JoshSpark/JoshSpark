@@ -57,7 +57,9 @@ div.head div.head2 div.head3>ul>li>a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 700 !important;
+    transition: all 0.5s;
 }
+
 div.head div.head2 div.head3>ul>li>a:hover {
     color: rgb(2, 2, 58);
 }
@@ -81,7 +83,9 @@ div.head div.head4>a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 700 !important;
+    transition: all 0.5s;
 }
+
 div.head div.head4>a:hover {
     background-color: rgb(2, 2, 58);
 }
@@ -288,7 +292,7 @@ div.perfect{
     padding: 0;
   margin: 0px 40px;
   width: auto;
-  height: 700px;
+  height: 800px;
   margin-top: -180px;
   
 }
@@ -303,7 +307,7 @@ div.perfect1{
     height: 100px;
     width: 50%;
     background-image: url(./images/coworking-colleagues-having-conversation-at-workplace-1.jpg);
-    height: 600px;
+    height: 670px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -316,16 +320,15 @@ div.perfect1 div.wrap1{
     padding: 0;
     margin: 0;
     background-color: rgba(10, 10, 10, 0.80) !important;
-    height: 600px;
+    height: 670px;
 }
 
 div.perfect2{
     display:flex;
     flex-direction: row;
-    height: 100px;
     width: 50%;
     background-image: url(./images/coworking-colleagues-having-conversation-at-workplace-1.jpg);
-    height: 600px;
+    height: 670px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -334,6 +337,7 @@ div.perfect1 div.wrap1{
     padding: 30px;
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
 }
 div.perfect1 div.wrap1>h1{
     padding:0;
@@ -368,6 +372,7 @@ div.perfect1 div.wrap1>h4>i{
 div.perfect1 div.wrap1 div.wrap2{
     display: flex;
     flex-direction: row;
+    padding-top: inherit;
 }
 div.perfect1 div.wrap1 div.wrap2>button{
   background-color: #0c71c3;
@@ -384,7 +389,7 @@ div.perfect1 div.wrap1 div.wrap2>button{
   letter-spacing: 0.2em;
 }
 div.perfect1 div.wrap1 div.wrap2>button:hover{
-    background-image: linear-gradient(to bottom right, #025599);
+     background-image: linear-gradient(to bottom right, #025599);
 }
 div.perfect1 div.wrap1 div.wrap2 >button span{
     cursor: pointer;
@@ -415,4 +420,42 @@ div.perfect1 div.wrap1 div.wrap2>a{
     margin-top: 40px;
     font-family: 'Roboto', sans-serif;
     color:#FFFFFF;
+    transition: all 0.5s;
+}
+div.perfect1 div.wrap1 div.wrap2>a:hover{
+   color: #025599;
+}
+div.achieve{
+    height: 100px;
+}
+div.achieve div.line{
+    width: 90%;
+    height: 1px;
+    background-color: #91979a;
+    padding: 0;
+    margin: 0px 50px;
+}
+div.achieve1{
+    height:auto;
+}
+div.achieve1 div.achieve-wrap{
+    height: auto;
+    width: auto;
+    align-content: center;
+}
+div.achieve1 div.achieve-wrap>h1{
+    text-align: center;
+    padding: 0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+div.achieve1 div.achieve-wrap>h2{
+    text-align: center;
+    padding: 0;
+    padding-bottom: 20px;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    color: #0c71c3;
+    font-weight: 400;
 }

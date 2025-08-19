@@ -134,7 +134,9 @@ div.nd div.nd3 div.nd4>ul>li>a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 700 !important;
+    transition: all 0.5s;
 }
+
 
 div.nd div.nd3 div.nd4>ul>li>a:hover {
     color: blue;
@@ -162,7 +164,9 @@ div.nd div.nd5>a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 700 !important;
+    transition: all 0.5s;
 }
+
 
 div.nd div.nd5>a:hover {
     background-color: rgb(2, 2, 58);
@@ -226,6 +230,7 @@ div.dr div.dr1>a {
     font-weight: 700 !important;
     color: #ffffff;
     display: block;
+    transition: all 0.5s;
     border-radius: 5px 15px 5px 15px;
     font-size: 1.5em;
     letter-spacing: 3px;
@@ -1032,11 +1037,13 @@ div.words2 div.wrds2>a {
     color: #e7e4e4;
     font-weight: 600 !important;
     height: 50px;
+    transition: all 0.5s;
     border-radius: 5px 10px 5px 10px;
 }
 
 div.words2 div.wrds2>a:hover {
     background-image: linear-gradient(to bottom right, #5293c9, rgb(94, 94, 219));
+    transition: all 0.5s;
 }
 
 div.av {
@@ -1262,7 +1269,9 @@ div.tips div.tips1>a {
     font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(to bottom right, #0c71c3, rgb(2, 2, 58));
     color: #ffffff;
+    transition: all 0.5s;
 }
+
 
 div.tips div.tips1>a:hover {
     padding: 10px 20px;
@@ -1271,7 +1280,7 @@ div.tips div.tips1>a:hover {
     font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(to bottom right, #6497c2, rgb(26, 26, 224));
     color: #ffffff;
-    border: #ffffff solid 3px;
+    border: #ffffff solid 1px;
 }
 div.add{
     height: 70px;
@@ -1397,6 +1406,7 @@ padding: 10px 20px;
   background-image: linear-gradient(to bottom right, #0c71c3, rgb(2, 2, 58));
   color: #ffffff;
   margin-left: 10px;
+  transition: all 0.5s;
   margin-bottom: 20px;
 }
 div.spaces div.spaces1>button:hover{
@@ -1502,6 +1512,7 @@ div.spaces div.spaces4>a {
     text-decoration: none;
     background-image: linear-gradient(to right, rgb(2, 2, 58), #0c71c3);
     color: #ffffff;
+    transition: all 0.5s;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -1512,5 +1523,5 @@ div.spaces div.spaces4>a:hover {
     font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(to bottom right, #6497c2, rgb(26, 26, 224));
     color: #ffffff;
-    border: #ffffff solid 3px;
+    border: #ffffff solid 1px;
 }
