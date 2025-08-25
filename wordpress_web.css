@@ -198,7 +198,7 @@ div.dr div.dr1>h2 {
     text-align: center;
     color: #ffffff;
     letter-spacing: 2px;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 div.dr div.dr1>h1 {
@@ -207,7 +207,7 @@ div.dr div.dr1>h1 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: #ffffff;
-    font-size: 4em;
+    font-size: 4rem;
 }
 div.dr div.dr1>h3 {
     padding: 0;
@@ -217,7 +217,7 @@ div.dr div.dr1>h3 {
     text-align: center;
     color: #ffffff;
     letter-spacing: 2px;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 div.dr div.dr1>a {
@@ -232,7 +232,7 @@ div.dr div.dr1>a {
     display: block;
     transition: all 0.5s;
     border-radius: 5px 15px 5px 15px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     letter-spacing: 3px;
     width: 20%;
 }
@@ -283,19 +283,19 @@ div.bs div.bs1 div.blurb div.myi>span {
     color: #0c71c3;
     padding: 0;
     margin: 0;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 div.bs div.bs1 div.blurb div.myii span.tx>h4 {
     padding: 10px 0px;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 div.bs div.bs1 div.blurb div.myiii {
     font-family: 'Roboto', sans-serif;
-    line-height: 2em;
+    line-height: 2rem;
 }
 
 div.bs div.bs2 {
@@ -331,19 +331,19 @@ div.bs div.bs2 div.blurb1 div.nyi>span {
     color: green;
     padding: 0;
     margin: 0;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 div.bs div.bs2 div.blurb1 div.nyii span.dx>h4 {
     padding: 10px 0px;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 div.bs div.bs2 div.blurb1 div.nyiii {
     font-family: 'Roboto', sans-serif;
-    line-height: 2em;
+    line-height: 2rem;
 }
 
 div.bs div.bs3 {
@@ -379,19 +379,19 @@ div.bs div.bs3 div.blurb2 div.oyi>span {
     color: red;
     padding: 0;
     margin: 0;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 div.bs div.bs3 div.blurb2 div.oyii span.ex>h4 {
     padding: 10px 0px;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 div.bs div.bs3 div.blurb2 div.oyiii {
     font-family: 'Roboto', sans-serif;
-    line-height: 2em;
+    line-height: 2rem;
 }
 
 div.bs div.bs4 {
@@ -426,19 +426,19 @@ div.bs div.bs4 div.blurb3 div.pyi>span {
     color: orangered;
     padding: 0;
     margin: 0;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 div.bs div.bs4 div.blurb3 div.pyii span.fx>h4 {
     padding: 10px 0px;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 div.bs div.bs4 div.blurb3 div.pyiii {
     font-family: 'Roboto', sans-serif;
-    line-height: 2em;
+    line-height: 2rem;
 }
 
 div.section {
@@ -469,7 +469,7 @@ div.section div.section11>div.title>h3 {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     padding-top: 10px;
-    font-size: 2em;
+    font-size: 2rem;
     text-align: left;
 }
 
@@ -487,7 +487,7 @@ div.section div.section11>div.title1 {
     float: left;
     font-family: 'Roboto', sans-serif;
     text-align: justify;
-    line-height: 1.3em;
+    line-height: 1.3rem;
     color: gray;
 }
 
@@ -518,7 +518,7 @@ div.section1 div.title2 div.title3 {
 
 div.section1 div.title2 div.title3>div.dy {
     float: left;
-    font-size: 2em;
+    font-size: 2rem;
     padding-right: 20px;
     color: orange;
 }
@@ -532,14 +532,14 @@ div.section1 div.title2 div.title3>div.dyy>h4 {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     padding-bottom: 10px;
 }
 
 div.section1 div.title2 div.title3>div.dyy1 {
     font-family: 'Roboto', sans-serif;
     padding-left: 50px;
-    line-height: 1.5em;
+    line-height: 1.5rem;
     color: gray;
 }
 
@@ -563,7 +563,7 @@ div.section1 div.live div.live1 {
 
 div.section1 div.live div.live1>div.xy {
     float: left;
-    font-size: 2em;
+    font-size: 2rem;
     padding-right: 20px;
     color: red;
 }
@@ -577,7 +577,7 @@ div.section1 div.live div.live1>div.xyy>h4 {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     padding-bottom: 10px;
 }
 
@@ -586,7 +586,7 @@ div.section1 div.live div.live1>div.xyy1 {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     padding-left: 50px;
-    line-height: 1.5em;
+    line-height: 1.5rem;
     color: gray;
 }
 
@@ -612,7 +612,7 @@ div.section1 div.lt div.lt1>div.fy {
     padding: 0;
     margin: 0;
     float: left;
-    font-size: 2em;
+    font-size: 2rem;
     padding-right: 20px;
     color: #0c71c3;
 }
@@ -626,7 +626,7 @@ div.section1 div.lt div.lt1>div.fyy>h4 {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     padding-bottom: 10px;
 }
 
@@ -635,7 +635,7 @@ div.section1 div.lt div.lt1>div.fyy1 {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     padding-left: 50px;
-    line-height: 1.5em;
+    line-height: 1.5rem;
     color: gray;
 }
 
@@ -664,7 +664,7 @@ div.section3 div.text div.text1>h5 {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 1em;
+    font-size: 1rem;
     color: #ffffff;
 }
 
@@ -679,7 +679,7 @@ div.section3 div.text div.txts1>h3 {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 2.5em !important;
+    font-size: 2.5rem !important;
     color: #ffffff;
 }
 
@@ -707,8 +707,8 @@ div.section3 div.tss div.tss1 {
     height: 250px;
     float: left;
     background-color: rgba(10, 10, 10, 0.28);
-    margin-left: 2.3em;
-    margin-right: 2em;
+    margin-left: 2.3rem;
+    margin-right: 2rem;
 }
 
 div.tss div.tss1 div.ts {
@@ -720,7 +720,7 @@ div.tss div.tss1 div.ts>div.tss2 {
     padding: 0;
     margin: 0;
     color: #0c71c3;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     text-align: left;
     margin-bottom: 20px;
 }
@@ -738,7 +738,7 @@ div.tss div.tss1 div.ts>div.tss4 {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    line-height: 1.5em;
+    line-height: 1.5rem;
     padding-top: 10px;
 }
 
@@ -762,7 +762,7 @@ div.tss div.ts1 div.pss1>div.pss2 {
     padding: 0;
     margin: 0;
     color: #ffffff;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     text-align: left;
     margin-bottom: 20px;
 }
@@ -780,7 +780,7 @@ div.tss div.ts1 div.pss1>div.pss4 {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    line-height: 1.5em;
+    line-height: 1.5rem;
     padding-top: 10px;
 }
 
@@ -803,7 +803,7 @@ div.tss div.fs1 div.fss1>div.fss2 {
     padding: 0;
     margin: 0;
     color: #0c71c3;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     text-align: left;
     margin-bottom: 20px;
 }
@@ -821,7 +821,7 @@ div.tss div.fs1 div.fss1>div.fss4 {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    line-height: 1.5em;
+    line-height: 1.5rem;
     padding-top: 10px;
 }
 
@@ -839,7 +839,7 @@ div.tss div.gs1 div.gss1>div.gss2 {
     padding: 0;
     margin: 0;
     color: #ffffff;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     text-align: left;
     margin-bottom: 20px;
 }
@@ -857,7 +857,7 @@ div.tss div.gs1 div.gss1>div.gss4 {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    line-height: 1.5em;
+    line-height: 1.5rem;
     padding-top: 10px;
 }
 
@@ -945,7 +945,7 @@ div.set div.set1 div.words>h4 {
     font-family: 'Roboto', sans-serif;
     text-align: left;
     padding-left: 20px;
-    line-height: 1.5em;
+    line-height: 1.5rem;
 }
 
 div.set div.words1 {
@@ -985,14 +985,14 @@ div.words2>div.wrds>p {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 div.words2>div.wrds>h4 {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 div.words2>div.wrds>div.line1 {
@@ -1250,14 +1250,14 @@ div.tips div.tips1>p {
     font-family: 'Poppins', sans-serif;
     font-weight: 600 !important;
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 div.tips div.tips1>h4 {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     color: #ffffff;
     padding-bottom: 30px;
 }
@@ -1345,7 +1345,7 @@ div.footer div.foot>div.foot1>p {
 div.footer div.foot div.foot1>i {
     margin: 0;
     padding: 0px 20px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 div.footer div.line1 {
@@ -1376,7 +1376,7 @@ div.spaces div.spaces1>h4 {
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     letter-spacing: 3px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 div.spaces div.spaces1>p {
@@ -1387,6 +1387,7 @@ div.spaces div.spaces1>p {
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
     margin-bottom: 10px;
+    line-height: 2rem;
 }
 
 div.spaces div.spaces1>a {
@@ -1432,6 +1433,7 @@ div.spaces div.spaces1 div.socials>a{
 
 div.spaces div.spaces2{
     margin-right: 20px;
+    margin-left: 40px;
 }
 
 div.spaces div.spaces2>h4 {
@@ -1440,10 +1442,9 @@ div.spaces div.spaces2>h4 {
     flex-flow: column wrap;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     letter-spacing: 3px;
     padding-bottom: 20px;
-   
 }
 
 div.spaces div.spaces2>a {
@@ -1453,7 +1454,7 @@ div.spaces div.spaces2>a {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: #ffffff;
-    line-height: 2em;
+    line-height: 2rem;
     margin-right: 20px;
 }
 div.spaces div.spaces2>a:hover{
@@ -1466,7 +1467,7 @@ div.spaces div.spaces3>h4 {
     flex-flow: column wrap;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     letter-spacing: 3px;
     padding-bottom: 20px;
 }
@@ -1478,7 +1479,7 @@ div.spaces div.spaces3>a {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: #ffffff;
-    line-height: 2em;
+    line-height: 2rem;
 }
 div.spaces div.spaces3>a:hover {
      border-bottom:  1px solid white;
@@ -1490,7 +1491,7 @@ div.spaces div.spaces4>h4 {
     flex-flow: column wrap;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     letter-spacing: 3px;
     padding-bottom: 20px;
 }
@@ -1500,7 +1501,7 @@ div.spaces div.spaces4>p {
     margin: 0px 50px;
     flex-flow: column wrap;
     font-family: 'Roboto', sans-serif;
-    line-height: 2em;
+    line-height: 2rem;
     color: #ffffff;
     padding-bottom: 70px;
 }

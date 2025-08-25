@@ -1,12 +1,11 @@
 body {
     margin: 0;
-   
-  
+   padding:0;
 }
 
 * {
     box-sizing: border-box;
-    
+    outline: 1px red solid;
 }
 div.head {
     padding: 0;
@@ -449,6 +448,7 @@ div.achieve1 div.achieve-wrap>h1{
     margin:0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    margin-bottom: 30px;
 }
 div.achieve1 div.achieve-wrap>h2{
     text-align: center;
@@ -459,3 +459,321 @@ div.achieve1 div.achieve-wrap>h2{
     color: #0c71c3;
     font-weight: 400;
 }
+div.clients{
+    margin: 10px 80px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 0;
+    align-content: center;
+}
+div.clients div.clients1{
+    height: auto;
+    width: auto; 
+    background-color: #0c71c3;
+    margin: 0px 20px;
+    padding: 5px 120px;
+}
+div.clients div.clients1 div.blurb{
+    width:auto;
+    height: auto;
+    padding: 0;
+}
+
+div.clients div.clients1 div.blurb>h1{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    color: #FFFFFF;
+}
+div.clients div.clients1 div.blurb>h3{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    color:#FFFFFF;
+    font-weight: 300;
+}
+div.clients div.clients2{
+    height: auto;
+    width: auto; 
+    background-color: #0c71c3;
+    margin: 0px 20px;
+    padding: 5px 120px;
+}
+div.clients div.clients2 div.blurb1{
+    width:auto;
+    height: auto;
+    padding: 0;
+}
+div.clients div.clients2 div.blurb1>h1{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    color: #FFFFFF;
+}
+div.clients div.clients2 div.blurb1>h3{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    color:#FFFFFF;
+    font-weight: 300;
+}
+div.clients div.clients3{
+    height: auto;
+    width: auto; 
+    background-color: #0c71c3;
+    margin: 0px 20px;
+    padding: 5px 120px;
+}
+div.clients div.clients3 div.blurb2{
+    width:auto;
+    height: auto;
+    padding: 0;
+}
+div.clients div.clients3 div.blurb2>h1{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    color: #FFFFFF;
+}
+div.clients div.clients3 div.blurb2>h3{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    color:#FFFFFF;
+    font-weight: 300;
+}
+
+div.footer {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    background-color: #232733;
+}
+
+div.footer div.foot {
+    padding: 0;
+    margin: 0;
+}
+
+div.footer div.foot>div.foot1 {
+    padding: 20px 80px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.footer div.foot>div.foot1>p {
+    margin: 10px 20px;
+    padding: 0;
+    font-size: 1em;
+    text-align: justify;
+}
+
+
+div.footer div.foot div.foot1>i {
+    margin: 0;
+    padding: 0px 20px;
+    font-size: 1.5em;
+}
+
+div.footer div.line1 {
+    width: 90%;
+    height: 2px;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0px 50px;
+}
+
+div.footer div.spaces {
+    padding: 20px 0px;
+    margin: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+}
+div.footer div.spaces div.spaces1{
+    padding: 0;
+    margin: 0;
+}
+
+div.spaces div.spaces1>h4 {
+    padding: 0px 10px;
+    margin: 0;
+    margin-bottom: 20px;
+    flex-flow: column wrap;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-size: 1.5em;
+}
+
+div.spaces div.spaces1>p {
+    padding: 0px 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 10px;
+    line-height: 2em;
+}
+div.spaces div.spaces1>img{
+    padding: 0;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+}
+
+div.spaces div.spaces1>a {
+    padding: 10px 7px;
+    margin: 0;
+    margin-left: 30px;
+    flex-flow: column wrap;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+div.spaces div.spaces1>button{
+padding: 10px 20px;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(to bottom right, #0c71c3, rgb(2, 2, 58));
+  color: #ffffff;
+  margin-left: 10px;
+  transition: all 0.5s;
+  margin-bottom: 20px;
+}
+div.spaces div.spaces1>button:hover{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to bottom right, #6497c2, rgb(26, 26, 224));
+    color: #ffffff;
+}
+div.spaces div.spaces1 div.socials{
+    margin-left: 0px;
+}
+div.spaces div.spaces1 div.socials>a{
+    padding: 10px 7px;
+    margin: 0;
+    margin-left: 11px;
+    flex-flow: column wrap;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+div.spaces div.spaces2{
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+div.spaces div.spaces2>h4 {
+    padding: 0;
+    margin: 0;
+    flex-flow: column wrap;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+   
+}
+
+div.spaces div.spaces2>a {
+    padding: 0;
+    margin: 0;
+    flex-flow: column wrap;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 2em;
+    margin-right: 20px;
+}
+div.spaces div.spaces2>a:hover{
+    border-bottom:  1px solid white;
+}
+
+div.spaces div.spaces3>h4 {
+    padding: 0;
+    margin: 0px 50px;
+    flex-flow: column wrap;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+
+div.spaces div.spaces3>a {
+    padding: 0;
+    margin: 0px 50px;
+    flex-flow: column wrap;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 2em;
+}
+div.spaces div.spaces3>a:hover {
+     border-bottom:  1px solid white;
+}
+
+div.spaces div.spaces4>h4 {
+    padding: 0;
+    margin: 0px 50px;
+    flex-flow: column wrap;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+
+div.spaces div.spaces4>p {
+    padding: 0;
+    margin: 0px 50px;
+    flex-flow: column wrap;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2em;
+    color: #ffffff;
+    padding-bottom: 70px;
+}
+
+div.spaces div.spaces4>a {
+    padding: 10px 20px;
+    margin: 0px 50px;
+    flex-flow: column wrap;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(2, 2, 58), #0c71c3);
+    color: #ffffff;
+    transition: all 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.spaces div.spaces4>a:hover {
+    padding: 10px 20px;
+    margin: 0px 50px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to bottom right, #6497c2, rgb(26, 26, 224));
+    color: #ffffff;
+    border: #ffffff solid 1px;
+}
+

@@ -201,84 +201,109 @@ div.dr div.dr1> h3{
     }
 }
 /*Mobile Phone*/
-@media (min-width: 375px){
-div.nd div.nd3 div.nd4 {
-    padding: 0;
+@media (max-width: 375px){
+    div.wrap{
+        width: 100%;
+        height: 40px;
+    }
+    div.hd{
+        height: inherit;
+    }
+    div.hd2{
+        height: 40px;
+        width: 30%;
+        display: flex;
+    }
+    div.hd2 > i{
+        padding: 10px 10px;
+        font-size: 0.7rem;
+    }
+    div.hd2 > a{
+        padding: 10px 0px;
     margin: 0;
-    padding-left: 1em;
-}
-div.nd div.nd5>a {
-    padding: 15px 15px;
+    font-size: 0.7rem;
+    color: #ffff;
+    }
+    div.hd3{
+        width: 50%;
+        display: flex;
+        height: 40px;
+    }
+    div.hd3 > i{
+        padding: 10px 10px;
+        font-size: 0.7rem;
+    }
+    div.hd3 > a{
+          padding: 10px 0px;
     margin: 0;
-    text-align: center;
-    background-color: #0c71c3;
-    color: white;
-    border-radius: 5px 15px 5px 15px;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600 !important;
-}
-div.section div.section11 > div.title >h3 {
-font-size: 1.2em;
-}
-div.dr div.dr1 > h1{
-    font-size: 3em;
-}
-div.section1 div.title2 div.title3{
-    font-size: 1em;
-}
-div.section2>img{
-    width: 90%;
-}
-div.section3{
-    margin-top: -20px;
-}
-div.section3 div.text{
-    padding-top: 3em;
-}
-div.section3 div.tss{
-    padding-top: 3em;
-}
-div.tss div.tss1 div.ts{
-    margin: 1.5em 1.5em;
-}
-div.section3 div.tss div.tss1{
-    height: auto;
-}
-div.section3 div.tss div.ts1 div.pss1{
-    height: auto;
-    padding: 1.5em 1.5em;
-}
-div.tss div.fs1 div.fss1{
-    padding: 1.5em 1.5em;
-    height: auto;
-}
-div.section3 div.fs1 div.fss1{
-    height: auto;
-}
-div.section3 div.gs1 div.gss1{
-    padding: 1.5em 1.5em;
-    height: auto;
-}
-
-div.set{
-    height: 13em;
-    margin-left: 3em;
-}
-div.set div.words1{
-    padding-top: 3em;
-}
-div.section4{
-    height: 200px;
-}
-div.dr div.dr1 > a{
-     background-color: #0c71c3;
-}
-div.dr div.dr1>a:hover {
-    background-color: rgb(2, 2, 58);
-}
- div.dips div.myfix div.fix{
-    margin: 0;
- }
-
+    font-size: 0.7rem;
+    color: #ffff;
+    }
+    div.hd5{
+        width: 10%;
+        display: flex;
+        height: 40px;
+    }
+    div.hd5 > a{
+        display: flex;
+        flex-direction: row;
+        font-size: 0.5rem;
+        padding: 5px 5px;
+        margin: 0;
+        margin-top:10px;
+    }
+    div.nd{
+        height: 60px;
+        display: flex;
+    }
+    div.nd2{
+        display: flex;
+    }
+    div.nd div.nd2{
+        width:15%;
+    }
+    div.nd div.nd2 > img{
+        padding:0;
+        margin:0
+    }
+    div.nd div.nd3{
+        display: flex;
+        width: 50%;
+    }
+    div.nd div.nd3 div.nd4{
+        padding:0;
+        margin:0;
+        display: flex;
+    }
+    div.nd div.nd3 div.nd4 > ul{
+        display: flex;
+        padding: 0;
+        padding-top: 15px;
+        margin: 0;
+    }
+    div.nd div.nd3 div.nd4 > ul > li{
+        display: flex;
+        padding: 10px;
+        margin:0;
+        font-size: 1rem;
+    }
+    div.nd div.nd3 div.nd4 > ul > li > a{
+        display: flex;
+        padding:0;
+        font-size: 0.5rem;
+    }
+    div.nd div.nd5{
+        width: 30%;
+        display: flex;
+        margin: 0;
+        margin-top:5px;
+        padding: 0;
+    }
+    div.nd div.nd5 > a{
+        padding: 10px 10px;
+        border-radius: 2px 8px 2px 8px;
+        margin: 0;
+        font-weight: 200;
+        font-size: 1rem;
+    }
 }
