@@ -650,236 +650,80 @@ div.section3 {
     background-size: cover;
     position: relative;
     z-index: 1;
+
 }
 
 div.section3 div.text {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    padding-top: 70px;
+   padding:0;
+   margin:0;
+   padding-top: 50px;
+   display: flex;
+   flex-direction: column;
+   width: auto;
 }
-
-div.section3 div.text div.text1>h5 {
-    padding: 0;
+div.section3 div.text>h5{
+padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 1rem;
     color: #ffffff;
 }
-
-div.section3 div.text div.txts1 {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
-
-div.section3 div.text div.txts1>h3 {
-    padding: 0;
+div.section3 div.text>h3{
+     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    padding-bottom: 10px;
     font-size: 2.5rem !important;
     color: #ffffff;
 }
-
-div.section3 div.text>div.line {
-    width: 8%;
-    height: 3px;
-    background-color: #0c71c3;
-    margin: 10px auto;
-    text-align: center;
-    display: block;
+div.section3 div.text div.line{
+    height: 5px;
+    background-color:#0c71c3;
+    width: auto;
+    align-content: center;
+    width: auto;
+    margin: 0px 600px;
 }
 
-div.section3 div.tss {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 500px;
-    padding-top: 50px;
+div.section3 div.text1{
+padding:0;
+margin:0;
+display: flex;
+flex-direction: row;
+margin-top: 50px;
+margin-left: 30px;
+margin-right: 30px;
 }
-
-div.section3 div.tss div.tss1 {
-    padding: 0;
+div.text1 div.text2{
+     padding: 0;
     margin: 0;
-    width: 20%;
     height: 250px;
-    float: left;
     background-color: rgba(10, 10, 10, 0.28);
-    margin-left: 2.3rem;
-    margin-right: 2rem;
+    padding: 30px 30px;
+    margin: 0px 30px;
 }
-
-div.tss div.tss1 div.ts {
-    padding: 0;
-    margin: 30px 30px;
-}
-
-div.tss div.tss1 div.ts>div.tss2 {
-    padding: 0;
-    margin: 0;
+div.text1 div.text2>span{
+    color: #ffffff;
+    font-size: 1.6rem;
     color: #0c71c3;
-    font-size: 2.5rem;
-    text-align: left;
-    margin-bottom: 20px;
+    
 }
-
-div.tss div.tss1 div.ts>div.tss3>h3 {
-    padding: 0;
+div.text1 div.text2>h3{
+     padding: 20px 0px;
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: white;
     font-weight: 900 !important;
+    font-size: 1.7rem;
 }
-
-div.tss div.tss1 div.ts>div.tss4 {
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    color: #ffffff;
-    line-height: 1.5rem;
-    padding-top: 10px;
-}
-
-div.section3 div.tss div.ts1 div.pss1 {
-    padding: 0;
-    margin: 0;
-    width: 20%;
-    height: 250px;
-    float: left;
-    background-color: rgba(10, 10, 10, 0.28);
-    margin-right: 40px;
-    padding: 30px 30px;
-}
-
-div.tss div.ts1 div.pss1 {
-    padding: 30px 30px;
-    margin: 0;
-}
-
-div.tss div.ts1 div.pss1>div.pss2 {
-    padding: 0;
-    margin: 0;
-    color: #ffffff;
-    font-size: 2.5rem;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-div.tss div.ts1 div.pss1>div.pss3>h3 {
-    padding: 0;
+div.text1 div.text2>p{
+      padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-weight: 900 !important;
-}
-
-div.tss div.ts1 div.pss1>div.pss4 {
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    color: #ffffff;
-    line-height: 1.5rem;
-    padding-top: 10px;
-}
-
-div.section3 div.fs1 div.fss1 {
-    padding: 0;
-    margin: 0;
-    width: 20%;
-    height: 250px;
-    float: left;
-    background-color: rgba(10, 10, 10, 0.28);
-    margin-right: 40px;
-}
-
-div.tss div.fs1 div.fss1 {
-    padding: 30px 30px;
-    margin: 0;
-}
-
-div.tss div.fs1 div.fss1>div.fss2 {
-    padding: 0;
-    margin: 0;
-    color: #0c71c3;
-    font-size: 2.5rem;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-div.tss div.fs1 div.fss1>div.fss3>h3 {
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    font-weight: 900 !important;
-}
-
-div.tss div.fs1 div.fss1>div.fss4 {
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    color: #ffffff;
-    line-height: 1.5rem;
-    padding-top: 10px;
-}
-
-div.section3 div.gs1 div.gss1 {
-    padding: 20px 30px;
-    margin: 0;
-    width: 20%;
-    height: auto;
-    float: left;
-    background-color: rgba(10, 10, 10, 0.28);
-    margin-left: 40px;
-}
-
-div.tss div.gs1 div.gss1>div.gss2 {
-    padding: 0;
-    margin: 0;
-    color: #ffffff;
-    font-size: 2.5rem;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-div.tss div.gs1 div.gss1>div.gss3>h3 {
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    font-weight: 900 !important;
-}
-
-div.tss div.gs1 div.gss1>div.gss4 {
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    color: #ffffff;
-    line-height: 1.5rem;
-    padding-top: 10px;
-}
-
-div.tss div.new {
-    padding: 0;
-    margin: 0;
-    clear: both;
-    text-align: center;
-    padding-top: 50px;
-}
-
-div.tss div.new div.new1 {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-div.tss div.new div.new1>div.new2>p {
-    padding: 0;
-    margin: 0;
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
 }
 
 div.section4 {

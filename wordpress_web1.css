@@ -62,9 +62,6 @@ div.section1 div.lt div.lt1>div.fyy1 {
     padding-left: 40px;
     line-height: 1.2em;
 }
-div.section3 {
-    margin-top: -70px;
-}
 div.section3 div.text div.txts1>h3 {
     font-size: 2.1em !important;
 }
@@ -268,7 +265,7 @@ div.dr div.dr1> h3{
     }
     div.nd div.nd3{
         display: flex;
-        width: 50%;
+        width: 60%;
     }
     div.nd div.nd3 div.nd4{
         padding:0;
@@ -293,17 +290,212 @@ div.dr div.dr1> h3{
         font-size: 0.5rem;
     }
     div.nd div.nd5{
-        width: 30%;
+        width: auto;
         display: flex;
         margin: 0;
         margin-top:5px;
+        margin-left: 5px;
+        margin-bottom: 8px;
+        margin-right:10px;
         padding: 0;
+
     }
     div.nd div.nd5 > a{
-        padding: 10px 10px;
+        padding: 5px 5px;
         border-radius: 2px 8px 2px 8px;
         margin: 0;
-        font-weight: 200;
-        font-size: 1rem;
+        font-size: 0.6rem;
+        padding-top: 10px;
     }
+    div.dr div.dr1{
+        width: 100%;
+        display: flex;
+    flex-direction: column;
+    }
+   div.dr{
+    height: auto;
+    background-position: center;
+   }
+   div.dr div.dr1 > h2{
+    padding-top:50px;
+    font-size: 1rem;
+   }
+   div.dr div.dr1 > h1{
+    font-size: 4rem;
+    padding-top: 20px;
+   }
+    div.dr div.dr1 > h3{
+        font-size: 0.8rem;
+    }
+    div.dr div.dr1 > a{
+        width: 40%;
+        font-size: 1rem;
+        padding: 20px 5px;
+    }
+    div.bs{
+        padding:0;
+        display: flex;
+        flex-direction:column;
+        height: auto;
+    }
+    div.bs > div.bs1{
+        padding:0;
+        margin:0;
+        margin-left: 50px;
+        width: 70%;
+    }
+    div.bs div.bs1 div.bs11{
+       display: flex;
+       flex-direction: column;
+       padding-top: 50px;
+    }
+    div.bs div.bs1 div.bs11 div.blurb{
+        padding-top: 40px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        height: 250px;
+    }
+    div.bs div.bs2{
+        padding:0;
+        margin:0;
+        margin-left: 50px;
+        width: 70%;
+    }
+    div.bs div.bs2 div.bs12{
+        display: flex;
+       flex-direction: column;
+       padding-top: 50px;
+    }
+    div.bs div.bs2 div.bs12 div.blurb1{
+        padding-top: 40px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        height: 250px;
+    }
+    
+div.bs div.bs3{
+    padding:0;
+        margin:0;
+        margin-left: 50px;
+        width: 70%;
+}
+div.bs div.bs3 div.bs13{
+     display: flex;
+       flex-direction: column;
+       padding-top: 50px;
+}
+
+div.bs div.bs3 div.bs13 div.blurb2{
+     padding-top: 40px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        height: 250px;
+}
+div.bs div.bs4{
+      padding:0;
+        margin:0;
+        margin-left: 50px;
+        width: 70%; 
+}
+div.bs div.bs4 div.bs14{
+    display: flex;
+       flex-direction: column;
+       padding-top: 50px;
+}
+div.bs div.bs4 div.bs14 div.blurb3{
+    padding-top: 40px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        height: 250px;
+}
+div.section{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    padding-top: 30px;
+    height: 750px;
+}
+div.section div.section1{
+    width:auto;
+}
+div.section div.section11 > div.line{
+    display: flex;
+    flex-direction: column;
+}
+div.section div.section2{
+   visibility: hidden;
+}
+div.section3{
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+}
+div.section3 div.text{
+    display: flex;
+    flex-direction: column;
+}
+div.section3 div.text1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+div.text1 div.text2{
+    margin: 10px 0px;
+    padding: 20px 20px;
+}
+div.section4{
+    display: flex;
+    flex-direction: column;
+}
+div.set{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    height: 400px;
+}
+div.set div.set1{
+    padding-left:20px;
+    height: 300px;
+}
+div.set div.set1 > img{
+    width: 30%;
+    flex-direction: column;
+}
+div.set div.set1 div.words{
+    width: auto;
+    margin: 0;
+    margin-top: 20px;
+}
+div.set div.words1{
+    width: auto;
+    margin-left: 50px;
+    padding:0;
+    flex-direction: column;
+}
+div.words2 > div.wrds > p{
+    text-align: center;
+}
+div.words2 > div.wrds > h4{
+
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+}
+div.words2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+div.words2 > div.wrds1{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+div.words2 > div.wrds1 > p{
+    width: 100%;
+    text-align: center;
+}
+
 }
